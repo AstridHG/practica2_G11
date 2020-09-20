@@ -21,9 +21,6 @@ public class InterfazCurso extends javax.swing.JFrame {
         initComponents();
        lista.Leer();
         
-        Scanner sn = new Scanner(System.in);
-        boolean salir = false;
-        int opcion; //Guardaremos la opcion del usuario
         
     }
 

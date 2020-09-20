@@ -11,12 +11,16 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.when;
 
 /**
  *
  * @author yovany
  */
 public class NodoCursoTest {
+    private NodoCurso NodoCursoValido;
+    private NodoCurso NodoCursoInvalido;
     
     public NodoCursoTest() {
     }
@@ -31,6 +35,10 @@ public class NodoCursoTest {
     
     @Before
     public void setUp() {
+        NodoCursoValido = mock(NodoCurso.class);
+        NodoCursoInvalido = mock(NodoCurso.class);
+        when(NodoCursoValido.setValor(1, "mock", 0)).thenReturn(false);
+        when(NodoCursoInvalido.setValor(1, "mock", 5)).thenReturn(true);
     }
     
     @After
@@ -54,11 +62,11 @@ public class NodoCursoTest {
     /**
      * Test of getSig method, of class NodoCurso.
      */
-    @Test
+    @Test 
     public void testNota() {
         NodoCurso instance = new NodoCurso();
-        int nota=0;
-        boolean result = instance.setValor(1, "prueba", 5);
+        int nota=5;
+        boolean result = instance.setValor(1, "prueba", nota);
         assertTrue(result);
         // TODO review the generated test code and remove the default call to fail.
     }
@@ -70,7 +78,7 @@ public class NodoCursoTest {
     public void testNotaError() {
         NodoCurso instance = new NodoCurso();
         int nota=0;
-        boolean result = instance.setValor(1, "prueba", 5);
+        boolean result = instance.setValor(1, "prueba", nota);
         assertNotSame(result,nota); //afirrmando que no son iguales
         // TODO review the generated test code and remove the default call to fail.
     }
