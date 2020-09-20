@@ -1,0 +1,29 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+com/mycompany/mavenproject1/InterfazCurso.class
+com/mycompany/mavenproject1/NodoCurso.class
+com/mycompany/mavenproject1/InterfazCurso$5.class
+com/mycompany/mavenproject1/InterfazCurso$3.class
+com/mycompany/mavenproject1/InterfazCurso$4.class
+com/mycompany/mavenproject1/InterfazCurso$1.class
+com/mycompany/mavenproject1/ListaCurso.class
+com/mycompany/mavenproject1/InterfazCurso$2.class
+=======
+com/mycompany/mavenproject1/NodoAuxiliar.class
+>>>>>>> req_Auxiliar
+=======
+com\mycompany\mavenproject1\NodoSalon.class
+>>>>>>> req_Salon
+=======
+com/mycompany/mavenproject1/GUIProfesor$2.class
+com/mycompany/mavenproject1/GUIProfesor$6.class
+com/mycompany/mavenproject1/NodoProfesor.class
+com/mycompany/mavenproject1/GUIProfesor$4.class
+com/mycompany/mavenproject1/ListaProfesor.class
+com/mycompany/mavenproject1/GUIProfesor$7.class
+com/mycompany/mavenproject1/GUIProfesor$1.class
+com/mycompany/mavenproject1/GUIProfesor$3.class
+com/mycompany/mavenproject1/GUIProfesor.class
+com/mycompany/mavenproject1/GUIProfesor$5.class
+>>>>>>> req_profesor

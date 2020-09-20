@@ -1,0 +1,21 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+/home/yovany/workGit/practica2_G11/mavenproject1/src/main/java/com/mycompany/mavenproject1/NodoCurso.java
+/home/yovany/workGit/practica2_G11/mavenproject1/src/main/java/com/mycompany/mavenproject1/ListaCurso.java
+/home/yovany/workGit/practica2_G11/mavenproject1/src/main/java/com/mycompany/mavenproject1/InterfazCurso.java
+=======
+/home/astridhernandez/Escritorio/Practica2_Grupo11/mavenproject1/src/main/java/com/mycompany/mavenproject1/ListaAuxiliar.java
+/home/astridhernandez/Escritorio/Practica2_Grupo11/mavenproject1/src/main/java/com/mycompany/mavenproject1/InterfazAuxiliar.java
+/home/astridhernandez/Escritorio/Practica2_Grupo11/mavenproject1/src/main/java/com/mycompany/mavenproject1/NodoAuxiliar.java
+>>>>>>> req_Auxiliar
+=======
+C:\Users\wendy\Documents\GitHub\practica2_G11\mavenproject1\src\main\java\com\mycompany\mavenproject1\ListaSalon.java
+C:\Users\wendy\Documents\GitHub\practica2_G11\mavenproject1\src\main\java\com\mycompany\mavenproject1\Salon.java
+C:\Users\wendy\Documents\GitHub\practica2_G11\mavenproject1\src\main\java\com\mycompany\mavenproject1\NodoSalon.java
+>>>>>>> req_Salon
+=======
+/home/esdras/Documentos/Projects/practica2_G11/mavenproject1/src/main/java/com/mycompany/mavenproject1/GUIProfesor.java
+/home/esdras/Documentos/Projects/practica2_G11/mavenproject1/src/main/java/com/mycompany/mavenproject1/ListaProfesor.java
+/home/esdras/Documentos/Projects/practica2_G11/mavenproject1/src/main/java/com/mycompany/mavenproject1/NodoProfesor.java
+>>>>>>> req_profesor

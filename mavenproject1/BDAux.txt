@@ -1,0 +1,4 @@
+1234,auxiliar,analisis,a,prueba14
+2012,astrid,idioma,o,astrid14
+2013,edith,archivos,a,edith040
+2014,ximena,compi,b,ximena130

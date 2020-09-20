@@ -1,0 +1,4 @@
+<<<<<<< HEAD
+0,Curso0,45;2,Curso2,89;2,cursoPa,99;1,curso2,34;
+=======
+>>>>>>> req_profesor
