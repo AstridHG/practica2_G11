@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 /home/astridhernandez/Escritorio/Practica2_Grupo11/mavenproject1/src/test/java/com/mycompany/mavenproject1/NodoAuxiliarTest.java
 =======
 /home/tu3/Escritorio/mavenproject1/src/test/java/com/mycompany/mavenproject1/NodoProfesorTest.java
@@ -8,3 +9,7 @@
 /home/tu3/Escritorio/mavenproject1/src/test/java/com/mycompany/mavenproject1/NodoLaboratorioTest.java
 /home/tu3/Escritorio/mavenproject1/src/test/java/com/mycompany/mavenproject1/NodoAuxiliarTest.java
 >>>>>>> req_Salon
+=======
+/home/esdras/Documentos/Projects/practica2_G11/mavenproject1/src/test/java/com/mycompany/mavenproject1/NodoProfesorTest.java
+/home/esdras/Documentos/Projects/practica2_G11/mavenproject1/src/test/java/com/mycompany/mavenproject1/ListaProfesorTest.java
+>>>>>>> req_profesor

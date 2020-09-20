@@ -2,6 +2,7 @@
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <coverage line-rate="0.6796875" branch-rate="0.6041666666666666" lines-covered="174" lines-valid="256" branches-covered="29" branches-valid="48" complexity="2.1515151515151514" version="1.9.4.1" timestamp="1600622827421">
 	<sources>
 		<source>/home/yovany/workGit/practica2_G11/mavenproject1/src/main/java</source>
@@ -338,10 +339,186 @@
 								<line number="197" hits="20" branch="false"/>
 								<line number="198" hits="20" branch="false"/>
 >>>>>>> req_Auxiliar
+=======
+<coverage line-rate="0.20588235294117646" branch-rate="0.3333333333333333" lines-covered="63" lines-valid="306" branches-covered="14" branches-valid="42" complexity="1.7435897435897436" version="1.9.4.1" timestamp="1600594384385">
+	<sources>
+		<source>--source</source>
+		<source>/home/esdras/Documentos/Projects/practica2_G11/mavenproject1/src/main/java</source>
+	</sources>
+	<packages>
+		<package name="com.mycompany.mavenproject1" line-rate="0.20588235294117646" branch-rate="0.3333333333333333" complexity="1.7435897435897436">
+			<classes>
+				<class name="com.mycompany.mavenproject1.GUIProfesor" filename="com/mycompany/mavenproject1/GUIProfesor.java" line-rate="0.0" branch-rate="0.0" complexity="1.375">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="14" hits="0" branch="false"/>
+								<line number="18" hits="0" branch="false"/>
+								<line number="19" hits="0" branch="false"/>
+								<line number="20" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="BTAgregarActionPerformed" signature="(Ljava/awt/event/ActionEvent;)V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="215" hits="0" branch="false"/>
+								<line number="216" hits="0" branch="false"/>
+								<line number="217" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="access$000" signature="(Lcom/mycompany/mavenproject1/GUIProfesor;Ljava/awt/event/ActionEvent;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+							</lines>
+						</method>
+						<method name="access$100" signature="(Lcom/mycompany/mavenproject1/GUIProfesor;Ljava/awt/event/ActionEvent;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+							</lines>
+						</method>
+						<method name="access$200" signature="(Lcom/mycompany/mavenproject1/GUIProfesor;Ljava/awt/event/ActionEvent;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+							</lines>
+						</method>
+						<method name="access$300" signature="(Lcom/mycompany/mavenproject1/GUIProfesor;Ljava/awt/event/ActionEvent;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+							</lines>
+						</method>
+						<method name="access$400" signature="(Lcom/mycompany/mavenproject1/GUIProfesor;Ljava/awt/event/ActionEvent;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+							</lines>
+						</method>
+						<method name="access$500" signature="(Lcom/mycompany/mavenproject1/GUIProfesor;Ljava/awt/event/ActionEvent;)V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="12" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="initComponents" signature="()V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="31" hits="0" branch="false"/>
+								<line number="32" hits="0" branch="false"/>
+								<line number="33" hits="0" branch="false"/>
+								<line number="34" hits="0" branch="false"/>
+								<line number="35" hits="0" branch="false"/>
+								<line number="36" hits="0" branch="false"/>
+								<line number="37" hits="0" branch="false"/>
+								<line number="38" hits="0" branch="false"/>
+								<line number="39" hits="0" branch="false"/>
+								<line number="40" hits="0" branch="false"/>
+								<line number="41" hits="0" branch="false"/>
+								<line number="42" hits="0" branch="false"/>
+								<line number="43" hits="0" branch="false"/>
+								<line number="44" hits="0" branch="false"/>
+								<line number="45" hits="0" branch="false"/>
+								<line number="46" hits="0" branch="false"/>
+								<line number="47" hits="0" branch="false"/>
+								<line number="48" hits="0" branch="false"/>
+								<line number="50" hits="0" branch="false"/>
+								<line number="52" hits="0" branch="false"/>
+								<line number="53" hits="0" branch="false"/>
+								<line number="59" hits="0" branch="false"/>
+								<line number="60" hits="0" branch="false"/>
+								<line number="66" hits="0" branch="false"/>
+								<line number="72" hits="0" branch="false"/>
+								<line number="73" hits="0" branch="false"/>
+								<line number="79" hits="0" branch="false"/>
+								<line number="80" hits="0" branch="false"/>
+								<line number="86" hits="0" branch="false"/>
+								<line number="92" hits="0" branch="false"/>
+								<line number="93" hits="0" branch="false"/>
+								<line number="94" hits="0" branch="false"/>
+								<line number="96" hits="0" branch="false"/>
+								<line number="98" hits="0" branch="false"/>
+								<line number="100" hits="0" branch="false"/>
+								<line number="102" hits="0" branch="false"/>
+								<line number="104" hits="0" branch="false"/>
+								<line number="106" hits="0" branch="false"/>
+								<line number="108" hits="0" branch="false"/>
+								<line number="109" hits="0" branch="false"/>
+								<line number="110" hits="0" branch="false"/>
+								<line number="111" hits="0" branch="false"/>
+								<line number="112" hits="0" branch="false"/>
+								<line number="113" hits="0" branch="false"/>
+								<line number="114" hits="0" branch="false"/>
+								<line number="115" hits="0" branch="false"/>
+								<line number="116" hits="0" branch="false"/>
+								<line number="117" hits="0" branch="false"/>
+								<line number="118" hits="0" branch="false"/>
+								<line number="119" hits="0" branch="false"/>
+								<line number="120" hits="0" branch="false"/>
+								<line number="121" hits="0" branch="false"/>
+								<line number="122" hits="0" branch="false"/>
+								<line number="123" hits="0" branch="false"/>
+								<line number="124" hits="0" branch="false"/>
+								<line number="125" hits="0" branch="false"/>
+								<line number="126" hits="0" branch="false"/>
+								<line number="127" hits="0" branch="false"/>
+								<line number="128" hits="0" branch="false"/>
+								<line number="129" hits="0" branch="false"/>
+								<line number="130" hits="0" branch="false"/>
+								<line number="131" hits="0" branch="false"/>
+								<line number="132" hits="0" branch="false"/>
+								<line number="133" hits="0" branch="false"/>
+								<line number="134" hits="0" branch="false"/>
+								<line number="135" hits="0" branch="false"/>
+								<line number="136" hits="0" branch="false"/>
+								<line number="137" hits="0" branch="false"/>
+								<line number="138" hits="0" branch="false"/>
+								<line number="139" hits="0" branch="false"/>
+								<line number="140" hits="0" branch="false"/>
+								<line number="141" hits="0" branch="false"/>
+								<line number="142" hits="0" branch="false"/>
+								<line number="143" hits="0" branch="false"/>
+								<line number="144" hits="0" branch="false"/>
+								<line number="145" hits="0" branch="false"/>
+								<line number="146" hits="0" branch="false"/>
+								<line number="147" hits="0" branch="false"/>
+								<line number="148" hits="0" branch="false"/>
+								<line number="149" hits="0" branch="false"/>
+								<line number="150" hits="0" branch="false"/>
+								<line number="151" hits="0" branch="false"/>
+								<line number="152" hits="0" branch="false"/>
+								<line number="153" hits="0" branch="false"/>
+								<line number="154" hits="0" branch="false"/>
+								<line number="155" hits="0" branch="false"/>
+								<line number="156" hits="0" branch="false"/>
+								<line number="157" hits="0" branch="false"/>
+								<line number="159" hits="0" branch="false"/>
+								<line number="160" hits="0" branch="false"/>
+								<line number="161" hits="0" branch="false"/>
+								<line number="162" hits="0" branch="false"/>
+								<line number="163" hits="0" branch="false"/>
+								<line number="164" hits="0" branch="false"/>
+								<line number="165" hits="0" branch="false"/>
+								<line number="166" hits="0" branch="false"/>
+								<line number="167" hits="0" branch="false"/>
+								<line number="168" hits="0" branch="false"/>
+								<line number="169" hits="0" branch="false"/>
+								<line number="170" hits="0" branch="false"/>
+								<line number="171" hits="0" branch="false"/>
+								<line number="172" hits="0" branch="false"/>
+								<line number="173" hits="0" branch="false"/>
+								<line number="174" hits="0" branch="false"/>
+								<line number="175" hits="0" branch="false"/>
+								<line number="176" hits="0" branch="false"/>
+								<line number="177" hits="0" branch="false"/>
+								<line number="178" hits="0" branch="false"/>
+								<line number="179" hits="0" branch="false"/>
+								<line number="180" hits="0" branch="false"/>
+								<line number="181" hits="0" branch="false"/>
+								<line number="182" hits="0" branch="false"/>
+								<line number="183" hits="0" branch="false"/>
+								<line number="184" hits="0" branch="false"/>
+								<line number="185" hits="0" branch="false"/>
+								<line number="186" hits="0" branch="false"/>
+								<line number="187" hits="0" branch="false"/>
+								<line number="188" hits="0" branch="false"/>
+								<line number="189" hits="0" branch="false"/>
+								<line number="192" hits="0" branch="false"/>
+								<line number="193" hits="0" branch="false"/>
+>>>>>>> req_profesor
 							</lines>
 						</method>
 						<method name="jButton1ActionPerformed" signature="(Ljava/awt/event/ActionEvent;)V" line-rate="0.0" branch-rate="1.0">
 							<lines>
+<<<<<<< HEAD
 <<<<<<< HEAD
 								<line number="140" hits="0" branch="false"/>
 								<line number="141" hits="0" branch="false"/>
@@ -352,10 +529,16 @@
 								<line number="203" hits="0" branch="false"/>
 								<line number="204" hits="0" branch="false"/>
 >>>>>>> req_Auxiliar
+=======
+								<line number="196" hits="0" branch="false"/>
+								<line number="197" hits="0" branch="false"/>
+								<line number="198" hits="0" branch="false"/>
+>>>>>>> req_profesor
 							</lines>
 						</method>
 						<method name="jButton2ActionPerformed" signature="(Ljava/awt/event/ActionEvent;)V" line-rate="0.0" branch-rate="1.0">
 							<lines>
+<<<<<<< HEAD
 <<<<<<< HEAD
 								<line number="150" hits="0" branch="false"/>
 								<line number="151" hits="0" branch="false"/>
@@ -364,10 +547,16 @@
 								<line number="207" hits="0" branch="false"/>
 								<line number="208" hits="0" branch="false"/>
 >>>>>>> req_Auxiliar
+=======
+								<line number="201" hits="0" branch="false"/>
+								<line number="202" hits="0" branch="false"/>
+								<line number="203" hits="0" branch="false"/>
+>>>>>>> req_profesor
 							</lines>
 						</method>
 						<method name="jButton3ActionPerformed" signature="(Ljava/awt/event/ActionEvent;)V" line-rate="0.0" branch-rate="1.0">
 							<lines>
+<<<<<<< HEAD
 <<<<<<< HEAD
 								<line number="145" hits="0" branch="false"/>
 								<line number="146" hits="0" branch="false"/>
@@ -394,21 +583,45 @@
 							<lines>
 								<line number="212" hits="0" branch="false"/>
 >>>>>>> req_Auxiliar
+=======
+								<line number="210" hits="0" branch="false"/>
+								<line number="211" hits="0" branch="false"/>
+								<line number="212" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="jTextField1ActionPerformed" signature="(Ljava/awt/event/ActionEvent;)V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="221" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="jTextField3ActionPerformed" signature="(Ljava/awt/event/ActionEvent;)V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="207" hits="0" branch="false"/>
+>>>>>>> req_profesor
 							</lines>
 						</method>
 						<method name="main" signature="([Ljava/lang/String;)V" line-rate="0.0" branch-rate="0.0">
 							<lines>
 <<<<<<< HEAD
+<<<<<<< HEAD
 								<line number="169" hits="0" branch="true" condition-coverage="0 % (0/2)">
+=======
+								<line number="233" hits="0" branch="true" condition-coverage="0 % (0/2)">
+>>>>>>> req_profesor
 									<conditions>
 										<condition number="0" type="jump" coverage="0 %"/>
 									</conditions>
 								</line>
+<<<<<<< HEAD
 								<line number="170" hits="0" branch="true" condition-coverage="0 % (0/2)">
+=======
+								<line number="234" hits="0" branch="true" condition-coverage="0 % (0/2)">
+>>>>>>> req_profesor
 									<conditions>
 										<condition number="0" type="jump" coverage="0 %"/>
 									</conditions>
 								</line>
+<<<<<<< HEAD
 								<line number="171" hits="0" branch="false"/>
 								<line number="172" hits="0" branch="false"/>
 								<line number="175" hits="0" branch="false"/>
@@ -435,6 +648,11 @@
 								</line>
 								<line number="236" hits="0" branch="false"/>
 								<line number="237" hits="0" branch="false"/>
+=======
+								<line number="235" hits="0" branch="false"/>
+								<line number="236" hits="0" branch="false"/>
+								<line number="239" hits="0" branch="false"/>
+>>>>>>> req_profesor
 								<line number="240" hits="0" branch="false"/>
 								<line number="241" hits="0" branch="false"/>
 								<line number="242" hits="0" branch="false"/>
@@ -443,14 +661,20 @@
 								<line number="245" hits="0" branch="false"/>
 								<line number="246" hits="0" branch="false"/>
 								<line number="247" hits="0" branch="false"/>
+<<<<<<< HEAD
 								<line number="248" hits="0" branch="false"/>
 								<line number="252" hits="0" branch="false"/>
 								<line number="257" hits="0" branch="false"/>
 >>>>>>> req_Auxiliar
+=======
+								<line number="251" hits="0" branch="false"/>
+								<line number="256" hits="0" branch="false"/>
+>>>>>>> req_profesor
 							</lines>
 						</method>
 					</methods>
 					<lines>
+<<<<<<< HEAD
 <<<<<<< HEAD
 						<line number="14" hits="0" branch="false"/>
 						<line number="19" hits="9" branch="false"/>
@@ -554,6 +778,117 @@
 						</line>
 						<line number="171" hits="0" branch="false"/>
 						<line number="172" hits="0" branch="false"/>
+=======
+						<line number="12" hits="0" branch="false"/>
+						<line number="14" hits="0" branch="false"/>
+						<line number="18" hits="0" branch="false"/>
+						<line number="19" hits="0" branch="false"/>
+						<line number="20" hits="0" branch="false"/>
+						<line number="31" hits="0" branch="false"/>
+						<line number="32" hits="0" branch="false"/>
+						<line number="33" hits="0" branch="false"/>
+						<line number="34" hits="0" branch="false"/>
+						<line number="35" hits="0" branch="false"/>
+						<line number="36" hits="0" branch="false"/>
+						<line number="37" hits="0" branch="false"/>
+						<line number="38" hits="0" branch="false"/>
+						<line number="39" hits="0" branch="false"/>
+						<line number="40" hits="0" branch="false"/>
+						<line number="41" hits="0" branch="false"/>
+						<line number="42" hits="0" branch="false"/>
+						<line number="43" hits="0" branch="false"/>
+						<line number="44" hits="0" branch="false"/>
+						<line number="45" hits="0" branch="false"/>
+						<line number="46" hits="0" branch="false"/>
+						<line number="47" hits="0" branch="false"/>
+						<line number="48" hits="0" branch="false"/>
+						<line number="50" hits="0" branch="false"/>
+						<line number="52" hits="0" branch="false"/>
+						<line number="53" hits="0" branch="false"/>
+						<line number="59" hits="0" branch="false"/>
+						<line number="60" hits="0" branch="false"/>
+						<line number="66" hits="0" branch="false"/>
+						<line number="72" hits="0" branch="false"/>
+						<line number="73" hits="0" branch="false"/>
+						<line number="79" hits="0" branch="false"/>
+						<line number="80" hits="0" branch="false"/>
+						<line number="86" hits="0" branch="false"/>
+						<line number="92" hits="0" branch="false"/>
+						<line number="93" hits="0" branch="false"/>
+						<line number="94" hits="0" branch="false"/>
+						<line number="96" hits="0" branch="false"/>
+						<line number="98" hits="0" branch="false"/>
+						<line number="100" hits="0" branch="false"/>
+						<line number="102" hits="0" branch="false"/>
+						<line number="104" hits="0" branch="false"/>
+						<line number="106" hits="0" branch="false"/>
+						<line number="108" hits="0" branch="false"/>
+						<line number="109" hits="0" branch="false"/>
+						<line number="110" hits="0" branch="false"/>
+						<line number="111" hits="0" branch="false"/>
+						<line number="112" hits="0" branch="false"/>
+						<line number="113" hits="0" branch="false"/>
+						<line number="114" hits="0" branch="false"/>
+						<line number="115" hits="0" branch="false"/>
+						<line number="116" hits="0" branch="false"/>
+						<line number="117" hits="0" branch="false"/>
+						<line number="118" hits="0" branch="false"/>
+						<line number="119" hits="0" branch="false"/>
+						<line number="120" hits="0" branch="false"/>
+						<line number="121" hits="0" branch="false"/>
+						<line number="122" hits="0" branch="false"/>
+						<line number="123" hits="0" branch="false"/>
+						<line number="124" hits="0" branch="false"/>
+						<line number="125" hits="0" branch="false"/>
+						<line number="126" hits="0" branch="false"/>
+						<line number="127" hits="0" branch="false"/>
+						<line number="128" hits="0" branch="false"/>
+						<line number="129" hits="0" branch="false"/>
+						<line number="130" hits="0" branch="false"/>
+						<line number="131" hits="0" branch="false"/>
+						<line number="132" hits="0" branch="false"/>
+						<line number="133" hits="0" branch="false"/>
+						<line number="134" hits="0" branch="false"/>
+						<line number="135" hits="0" branch="false"/>
+						<line number="136" hits="0" branch="false"/>
+						<line number="137" hits="0" branch="false"/>
+						<line number="138" hits="0" branch="false"/>
+						<line number="139" hits="0" branch="false"/>
+						<line number="140" hits="0" branch="false"/>
+						<line number="141" hits="0" branch="false"/>
+						<line number="142" hits="0" branch="false"/>
+						<line number="143" hits="0" branch="false"/>
+						<line number="144" hits="0" branch="false"/>
+						<line number="145" hits="0" branch="false"/>
+						<line number="146" hits="0" branch="false"/>
+						<line number="147" hits="0" branch="false"/>
+						<line number="148" hits="0" branch="false"/>
+						<line number="149" hits="0" branch="false"/>
+						<line number="150" hits="0" branch="false"/>
+						<line number="151" hits="0" branch="false"/>
+						<line number="152" hits="0" branch="false"/>
+						<line number="153" hits="0" branch="false"/>
+						<line number="154" hits="0" branch="false"/>
+						<line number="155" hits="0" branch="false"/>
+						<line number="156" hits="0" branch="false"/>
+						<line number="157" hits="0" branch="false"/>
+						<line number="159" hits="0" branch="false"/>
+						<line number="160" hits="0" branch="false"/>
+						<line number="161" hits="0" branch="false"/>
+						<line number="162" hits="0" branch="false"/>
+						<line number="163" hits="0" branch="false"/>
+						<line number="164" hits="0" branch="false"/>
+						<line number="165" hits="0" branch="false"/>
+						<line number="166" hits="0" branch="false"/>
+						<line number="167" hits="0" branch="false"/>
+						<line number="168" hits="0" branch="false"/>
+						<line number="169" hits="0" branch="false"/>
+						<line number="170" hits="0" branch="false"/>
+						<line number="171" hits="0" branch="false"/>
+						<line number="172" hits="0" branch="false"/>
+						<line number="173" hits="0" branch="false"/>
+						<line number="174" hits="0" branch="false"/>
+>>>>>>> req_profesor
 						<line number="175" hits="0" branch="false"/>
 						<line number="176" hits="0" branch="false"/>
 						<line number="177" hits="0" branch="false"/>
@@ -563,6 +898,7 @@
 						<line number="181" hits="0" branch="false"/>
 						<line number="182" hits="0" branch="false"/>
 						<line number="183" hits="0" branch="false"/>
+<<<<<<< HEAD
 						<line number="187" hits="0" branch="false"/>
 						<line number="192" hits="0" branch="false"/>
 					</lines>
@@ -731,6 +1067,43 @@
 						</line>
 						<line number="236" hits="0" branch="false"/>
 						<line number="237" hits="0" branch="false"/>
+=======
+						<line number="184" hits="0" branch="false"/>
+						<line number="185" hits="0" branch="false"/>
+						<line number="186" hits="0" branch="false"/>
+						<line number="187" hits="0" branch="false"/>
+						<line number="188" hits="0" branch="false"/>
+						<line number="189" hits="0" branch="false"/>
+						<line number="192" hits="0" branch="false"/>
+						<line number="193" hits="0" branch="false"/>
+						<line number="196" hits="0" branch="false"/>
+						<line number="197" hits="0" branch="false"/>
+						<line number="198" hits="0" branch="false"/>
+						<line number="201" hits="0" branch="false"/>
+						<line number="202" hits="0" branch="false"/>
+						<line number="203" hits="0" branch="false"/>
+						<line number="207" hits="0" branch="false"/>
+						<line number="210" hits="0" branch="false"/>
+						<line number="211" hits="0" branch="false"/>
+						<line number="212" hits="0" branch="false"/>
+						<line number="215" hits="0" branch="false"/>
+						<line number="216" hits="0" branch="false"/>
+						<line number="217" hits="0" branch="false"/>
+						<line number="221" hits="0" branch="false"/>
+						<line number="233" hits="0" branch="true" condition-coverage="0 % (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0 %"/>
+							</conditions>
+						</line>
+						<line number="234" hits="0" branch="true" condition-coverage="0 % (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0 %"/>
+							</conditions>
+						</line>
+						<line number="235" hits="0" branch="false"/>
+						<line number="236" hits="0" branch="false"/>
+						<line number="239" hits="0" branch="false"/>
+>>>>>>> req_profesor
 						<line number="240" hits="0" branch="false"/>
 						<line number="241" hits="0" branch="false"/>
 						<line number="242" hits="0" branch="false"/>
@@ -739,6 +1112,7 @@
 						<line number="245" hits="0" branch="false"/>
 						<line number="246" hits="0" branch="false"/>
 						<line number="247" hits="0" branch="false"/>
+<<<<<<< HEAD
 						<line number="248" hits="0" branch="false"/>
 						<line number="252" hits="0" branch="false"/>
 						<line number="257" hits="0" branch="false"/>
@@ -750,10 +1124,22 @@
 							<lines>
 								<line number="62" hits="20" branch="false"/>
 >>>>>>> req_Auxiliar
+=======
+						<line number="251" hits="0" branch="false"/>
+						<line number="256" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.mycompany.mavenproject1.GUIProfesor$1" filename="com/mycompany/mavenproject1/GUIProfesor.java" line-rate="0.0" branch-rate="1.0" complexity="1.375">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Lcom/mycompany/mavenproject1/GUIProfesor;)V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="53" hits="0" branch="false"/>
+>>>>>>> req_profesor
 							</lines>
 						</method>
 						<method name="actionPerformed" signature="(Ljava/awt/event/ActionEvent;)V" line-rate="0.0" branch-rate="1.0">
 							<lines>
+<<<<<<< HEAD
 <<<<<<< HEAD
 								<line number="58" hits="0" branch="false"/>
 								<line number="59" hits="0" branch="false"/>
@@ -761,10 +1147,15 @@
 								<line number="64" hits="0" branch="false"/>
 								<line number="65" hits="0" branch="false"/>
 >>>>>>> req_Auxiliar
+=======
+								<line number="55" hits="0" branch="false"/>
+								<line number="56" hits="0" branch="false"/>
+>>>>>>> req_profesor
 							</lines>
 						</method>
 					</methods>
 					<lines>
+<<<<<<< HEAD
 <<<<<<< HEAD
 						<line number="56" hits="9" branch="false"/>
 						<line number="58" hits="0" branch="false"/>
@@ -788,10 +1179,43 @@
 							<lines>
 								<line number="69" hits="20" branch="false"/>
 >>>>>>> req_Auxiliar
+=======
+						<line number="53" hits="0" branch="false"/>
+						<line number="55" hits="0" branch="false"/>
+						<line number="56" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.mycompany.mavenproject1.GUIProfesor$2" filename="com/mycompany/mavenproject1/GUIProfesor.java" line-rate="0.0" branch-rate="1.0" complexity="1.375">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Lcom/mycompany/mavenproject1/GUIProfesor;)V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="60" hits="0" branch="false"/>
 							</lines>
 						</method>
 						<method name="actionPerformed" signature="(Ljava/awt/event/ActionEvent;)V" line-rate="0.0" branch-rate="1.0">
 							<lines>
+								<line number="62" hits="0" branch="false"/>
+								<line number="63" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="60" hits="0" branch="false"/>
+						<line number="62" hits="0" branch="false"/>
+						<line number="63" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.mycompany.mavenproject1.GUIProfesor$3" filename="com/mycompany/mavenproject1/GUIProfesor.java" line-rate="0.0" branch-rate="1.0" complexity="1.375">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Lcom/mycompany/mavenproject1/GUIProfesor;)V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="66" hits="0" branch="false"/>
+>>>>>>> req_profesor
+							</lines>
+						</method>
+						<method name="actionPerformed" signature="(Ljava/awt/event/ActionEvent;)V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+<<<<<<< HEAD
 <<<<<<< HEAD
 								<line number="65" hits="0" branch="false"/>
 								<line number="66" hits="0" branch="false"/>
@@ -799,10 +1223,15 @@
 								<line number="71" hits="0" branch="false"/>
 								<line number="72" hits="0" branch="false"/>
 >>>>>>> req_Auxiliar
+=======
+								<line number="68" hits="0" branch="false"/>
+								<line number="69" hits="0" branch="false"/>
+>>>>>>> req_profesor
 							</lines>
 						</method>
 					</methods>
 					<lines>
+<<<<<<< HEAD
 <<<<<<< HEAD
 						<line number="63" hits="9" branch="false"/>
 						<line number="65" hits="0" branch="false"/>
@@ -826,10 +1255,23 @@
 							<lines>
 								<line number="76" hits="20" branch="false"/>
 >>>>>>> req_Auxiliar
+=======
+						<line number="66" hits="0" branch="false"/>
+						<line number="68" hits="0" branch="false"/>
+						<line number="69" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.mycompany.mavenproject1.GUIProfesor$4" filename="com/mycompany/mavenproject1/GUIProfesor.java" line-rate="0.0" branch-rate="1.0" complexity="1.375">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Lcom/mycompany/mavenproject1/GUIProfesor;)V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="73" hits="0" branch="false"/>
+>>>>>>> req_profesor
 							</lines>
 						</method>
 						<method name="actionPerformed" signature="(Ljava/awt/event/ActionEvent;)V" line-rate="0.0" branch-rate="1.0">
 							<lines>
+<<<<<<< HEAD
 <<<<<<< HEAD
 								<line number="72" hits="0" branch="false"/>
 								<line number="73" hits="0" branch="false"/>
@@ -837,10 +1279,15 @@
 								<line number="78" hits="0" branch="false"/>
 								<line number="79" hits="0" branch="false"/>
 >>>>>>> req_Auxiliar
+=======
+								<line number="75" hits="0" branch="false"/>
+								<line number="76" hits="0" branch="false"/>
+>>>>>>> req_profesor
 							</lines>
 						</method>
 					</methods>
 					<lines>
+<<<<<<< HEAD
 <<<<<<< HEAD
 						<line number="70" hits="9" branch="false"/>
 						<line number="72" hits="0" branch="false"/>
@@ -864,10 +1311,23 @@
 							<lines>
 								<line number="82" hits="20" branch="false"/>
 >>>>>>> req_Auxiliar
+=======
+						<line number="73" hits="0" branch="false"/>
+						<line number="75" hits="0" branch="false"/>
+						<line number="76" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.mycompany.mavenproject1.GUIProfesor$5" filename="com/mycompany/mavenproject1/GUIProfesor.java" line-rate="0.0" branch-rate="1.0" complexity="1.375">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Lcom/mycompany/mavenproject1/GUIProfesor;)V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="80" hits="0" branch="false"/>
+>>>>>>> req_profesor
 							</lines>
 						</method>
 						<method name="actionPerformed" signature="(Ljava/awt/event/ActionEvent;)V" line-rate="0.0" branch-rate="1.0">
 							<lines>
+<<<<<<< HEAD
 <<<<<<< HEAD
 								<line number="79" hits="0" branch="false"/>
 								<line number="80" hits="0" branch="false"/>
@@ -875,10 +1335,15 @@
 								<line number="84" hits="0" branch="false"/>
 								<line number="85" hits="0" branch="false"/>
 >>>>>>> req_Auxiliar
+=======
+								<line number="82" hits="0" branch="false"/>
+								<line number="83" hits="0" branch="false"/>
+>>>>>>> req_profesor
 							</lines>
 						</method>
 					</methods>
 					<lines>
+<<<<<<< HEAD
 <<<<<<< HEAD
 						<line number="77" hits="9" branch="false"/>
 						<line number="79" hits="0" branch="false"/>
@@ -901,16 +1366,34 @@
 						<method name="&lt;init&gt;" signature="(Lcom/mycompany/mavenproject1/InterfazAuxiliar;)V" line-rate="1.0" branch-rate="1.0">
 							<lines>
 								<line number="89" hits="20" branch="false"/>
+=======
+						<line number="80" hits="0" branch="false"/>
+						<line number="82" hits="0" branch="false"/>
+						<line number="83" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.mycompany.mavenproject1.GUIProfesor$6" filename="com/mycompany/mavenproject1/GUIProfesor.java" line-rate="0.0" branch-rate="1.0" complexity="1.375">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Lcom/mycompany/mavenproject1/GUIProfesor;)V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="86" hits="0" branch="false"/>
+>>>>>>> req_profesor
 							</lines>
 						</method>
 						<method name="actionPerformed" signature="(Ljava/awt/event/ActionEvent;)V" line-rate="0.0" branch-rate="1.0">
 							<lines>
+<<<<<<< HEAD
 								<line number="91" hits="0" branch="false"/>
 								<line number="92" hits="0" branch="false"/>
+=======
+								<line number="88" hits="0" branch="false"/>
+								<line number="89" hits="0" branch="false"/>
+>>>>>>> req_profesor
 							</lines>
 						</method>
 					</methods>
 					<lines>
+<<<<<<< HEAD
 						<line number="89" hits="20" branch="false"/>
 						<line number="91" hits="0" branch="false"/>
 						<line number="92" hits="0" branch="false"/>
@@ -922,10 +1405,23 @@
 							<lines>
 								<line number="252" hits="0" branch="false"/>
 >>>>>>> req_Auxiliar
+=======
+						<line number="86" hits="0" branch="false"/>
+						<line number="88" hits="0" branch="false"/>
+						<line number="89" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.mycompany.mavenproject1.GUIProfesor$7" filename="com/mycompany/mavenproject1/GUIProfesor.java" line-rate="0.0" branch-rate="1.0" complexity="1.375">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="251" hits="0" branch="false"/>
+>>>>>>> req_profesor
 							</lines>
 						</method>
 						<method name="run" signature="()V" line-rate="0.0" branch-rate="1.0">
 							<lines>
+<<<<<<< HEAD
 <<<<<<< HEAD
 								<line number="189" hits="0" branch="false"/>
 								<line number="190" hits="0" branch="false"/>
@@ -933,10 +1429,15 @@
 								<line number="254" hits="0" branch="false"/>
 								<line number="255" hits="0" branch="false"/>
 >>>>>>> req_Auxiliar
+=======
+								<line number="253" hits="0" branch="false"/>
+								<line number="254" hits="0" branch="false"/>
+>>>>>>> req_profesor
 							</lines>
 						</method>
 					</methods>
 					<lines>
+<<<<<<< HEAD
 <<<<<<< HEAD
 						<line number="187" hits="0" branch="false"/>
 						<line number="189" hits="0" branch="false"/>
@@ -948,18 +1449,38 @@
 						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
 							<lines>
 								<line number="18" hits="25" branch="false"/>
+=======
+						<line number="251" hits="0" branch="false"/>
+						<line number="253" hits="0" branch="false"/>
+						<line number="254" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.mycompany.mavenproject1.ListaProfesor" filename="com/mycompany/mavenproject1/ListaProfesor.java" line-rate="0.4727272727272727" branch-rate="0.3684210526315789" complexity="3.090909090909091">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="18" hits="7" branch="false"/>
+>>>>>>> req_profesor
 							</lines>
 						</method>
 						<method name="Escribir" signature="(Ljava/lang/String;)V" line-rate="0.7692307692307693" branch-rate="0.5">
 							<lines>
+<<<<<<< HEAD
 								<line number="178" hits="47" branch="false"/>
 								<line number="179" hits="47" branch="false"/>
 								<line number="180" hits="47" branch="false"/>
 								<line number="182" hits="47" branch="true" condition-coverage="50 % (1/2)">
+=======
+								<line number="151" hits="5" branch="false"/>
+								<line number="152" hits="5" branch="false"/>
+								<line number="153" hits="5" branch="false"/>
+								<line number="155" hits="5" branch="true" condition-coverage="50 % (1/2)">
+>>>>>>> req_profesor
 									<conditions>
 										<condition number="0" type="jump" coverage="50 %"/>
 									</conditions>
 								</line>
+<<<<<<< HEAD
 								<line number="183" hits="0" branch="false"/>
 								<line number="185" hits="47" branch="false"/>
 								<line number="186" hits="47" branch="false"/>
@@ -1009,10 +1530,62 @@
 								<line number="231" hits="44" branch="false"/>
 								<line number="234" hits="44" branch="false"/>
 								<line number="237" hits="11" branch="false"/>
+=======
+								<line number="156" hits="0" branch="false"/>
+								<line number="158" hits="5" branch="false"/>
+								<line number="159" hits="5" branch="false"/>
+								<line number="160" hits="5" branch="false"/>
+								<line number="161" hits="5" branch="false"/>
+								<line number="162" hits="0" branch="false"/>
+								<line number="163" hits="0" branch="false"/>
+								<line number="164" hits="5" branch="false"/>
+								<line number="165" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="Leer" signature="()V" line-rate="0.0" branch-rate="0.0">
+							<lines>
+								<line number="168" hits="0" branch="false"/>
+								<line number="169" hits="0" branch="false"/>
+								<line number="170" hits="0" branch="false"/>
+								<line number="171" hits="0" branch="false"/>
+								<line number="176" hits="0" branch="false"/>
+								<line number="177" hits="0" branch="false"/>
+								<line number="178" hits="0" branch="false"/>
+								<line number="183" hits="0" branch="true" condition-coverage="0 % (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0 %"/>
+									</conditions>
+								</line>
+								<line number="185" hits="0" branch="false"/>
+								<line number="188" hits="0" branch="false"/>
+								<line number="189" hits="0" branch="false"/>
+								<line number="191" hits="0" branch="false"/>
+								<line number="192" hits="0" branch="true" condition-coverage="0 % (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0 %"/>
+									</conditions>
+								</line>
+								<line number="193" hits="0" branch="false"/>
+								<line number="195" hits="0" branch="false"/>
+								<line number="196" hits="0" branch="false"/>
+								<line number="197" hits="0" branch="false"/>
+								<line number="198" hits="0" branch="false"/>
+								<line number="200" hits="0" branch="false"/>
+								<line number="201" hits="0" branch="true" condition-coverage="0 % (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0 %"/>
+									</conditions>
+								</line>
+								<line number="202" hits="0" branch="false"/>
+								<line number="205" hits="0" branch="false"/>
+								<line number="208" hits="0" branch="false"/>
+								<line number="211" hits="0" branch="false"/>
+>>>>>>> req_profesor
 							</lines>
 						</method>
 						<method name="Lista" signature="()V" line-rate="0.0" branch-rate="1.0">
 							<lines>
+<<<<<<< HEAD
 								<line number="24" hits="0" branch="false"/>
 								<line number="25" hits="0" branch="false"/>
 								<line number="26" hits="0" branch="false"/>
@@ -1037,10 +1610,37 @@
 								<line number="261" hits="0" branch="false"/>
 								<line number="263" hits="0" branch="false"/>
 								<line number="264" hits="1" branch="true" condition-coverage="50 % (1/2)">
+=======
+								<line number="23" hits="0" branch="false"/>
+								<line number="24" hits="0" branch="false"/>
+								<line number="25" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="Mostrar" signature="()Ljava/lang/String;" line-rate="0.631578947368421" branch-rate="0.5">
+							<lines>
+								<line number="214" hits="1" branch="false"/>
+								<line number="215" hits="1" branch="false"/>
+								<line number="216" hits="1" branch="false"/>
+								<line number="217" hits="1" branch="false"/>
+								<line number="222" hits="1" branch="false"/>
+								<line number="223" hits="1" branch="false"/>
+								<line number="224" hits="1" branch="false"/>
+								<line number="229" hits="1" branch="true" condition-coverage="50 % (1/2)">
 									<conditions>
 										<condition number="0" type="jump" coverage="50 %"/>
 									</conditions>
 								</line>
+								<line number="231" hits="0" branch="false"/>
+								<line number="234" hits="0" branch="false"/>
+								<line number="235" hits="0" branch="false"/>
+								<line number="237" hits="0" branch="false"/>
+								<line number="238" hits="1" branch="true" condition-coverage="50 % (1/2)">
+>>>>>>> req_profesor
+									<conditions>
+										<condition number="0" type="jump" coverage="50 %"/>
+									</conditions>
+								</line>
+<<<<<<< HEAD
 								<line number="265" hits="1" branch="false"/>
 								<line number="267" hits="0" branch="false"/>
 								<line number="268" hits="0" branch="false"/>
@@ -1086,69 +1686,152 @@
 									</conditions>
 								</line>
 								<line number="77" hits="1" branch="true" condition-coverage="50 % (2/4)">
+=======
+								<line number="239" hits="1" branch="false"/>
+								<line number="241" hits="0" branch="false"/>
+								<line number="242" hits="0" branch="false"/>
+								<line number="243" hits="1" branch="false"/>
+								<line number="244" hits="0" branch="false"/>
+								<line number="247" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="agregarAlFinal" signature="(ILjava/lang/String;)Ljava/lang/String;" line-rate="0.6363636363636364" branch-rate="0.25">
+							<lines>
+								<line number="36" hits="1" branch="false"/>
+								<line number="37" hits="1" branch="false"/>
+								<line number="38" hits="1" branch="true" condition-coverage="50 % (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50 %"/>
+									</conditions>
+								</line>
+								<line number="40" hits="1" branch="false"/>
+								<line number="44" hits="0" branch="false"/>
+								<line number="46" hits="0" branch="true" condition-coverage="0 % (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0 %"/>
+									</conditions>
+								</line>
+								<line number="47" hits="0" branch="false"/>
+								<line number="50" hits="0" branch="false"/>
+								<line number="53" hits="1" branch="false"/>
+								<line number="54" hits="1" branch="false"/>
+								<line number="55" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="editarPorPosicion" signature="(IILjava/lang/String;)Ljava/lang/String;" line-rate="0.3333333333333333" branch-rate="0.25">
+							<lines>
+								<line number="61" hits="1" branch="true" condition-coverage="50 % (2/4)">
+>>>>>>> req_profesor
 									<conditions>
 										<condition number="0" type="jump" coverage="50 %"/>
 										<condition number="1" type="jump" coverage="50 %"/>
 									</conditions>
 								</line>
+<<<<<<< HEAD
 								<line number="79" hits="0" branch="true" condition-coverage="0 % (0/2)">
+=======
+								<line number="63" hits="0" branch="true" condition-coverage="0 % (0/2)">
+>>>>>>> req_profesor
 									<conditions>
 										<condition number="0" type="jump" coverage="0 %"/>
 									</conditions>
 								</line>
+<<<<<<< HEAD
 								<line number="81" hits="0" branch="false"/>
 								<line number="86" hits="0" branch="false"/>
 								<line number="88" hits="0" branch="true" condition-coverage="0 % (0/2)">
+=======
+								<line number="65" hits="0" branch="false"/>
+								<line number="70" hits="0" branch="false"/>
+								<line number="72" hits="0" branch="true" condition-coverage="0 % (0/2)">
+>>>>>>> req_profesor
 									<conditions>
 										<condition number="0" type="jump" coverage="0 %"/>
 									</conditions>
 								</line>
+<<<<<<< HEAD
 								<line number="89" hits="0" branch="false"/>
 								<line number="92" hits="0" branch="false"/>
 								<line number="95" hits="1" branch="false"/>
 								<line number="96" hits="1" branch="false"/>
 								<line number="98" hits="1" branch="false"/>
+=======
+								<line number="73" hits="0" branch="false"/>
+								<line number="76" hits="0" branch="false"/>
+								<line number="79" hits="1" branch="false"/>
+								<line number="80" hits="1" branch="false"/>
+>>>>>>> req_profesor
 							</lines>
 						</method>
 						<method name="eliminar" signature="()V" line-rate="0.0" branch-rate="1.0">
 							<lines>
+<<<<<<< HEAD
 								<line number="142" hits="0" branch="false"/>
 								<line number="144" hits="0" branch="false"/>
 								<line number="145" hits="0" branch="false"/>
+=======
+								<line number="115" hits="0" branch="false"/>
+								<line number="117" hits="0" branch="false"/>
+								<line number="118" hits="0" branch="false"/>
+>>>>>>> req_profesor
 							</lines>
 						</method>
 						<method name="esVacia" signature="()Z" line-rate="1.0" branch-rate="1.0">
 							<lines>
+<<<<<<< HEAD
 								<line number="29" hits="95" branch="true" condition-coverage="100 % (2/2)">
+=======
+								<line number="28" hits="7" branch="true" condition-coverage="100 % (2/2)">
+>>>>>>> req_profesor
 									<conditions>
 										<condition number="0" type="jump" coverage="100 %"/>
 									</conditions>
 								</line>
+<<<<<<< HEAD
 								<line number="30" hits="16" branch="false"/>
 								<line number="32" hits="79" branch="false"/>
+=======
+>>>>>>> req_profesor
 							</lines>
 						</method>
 						<method name="getTamanio" signature="()I" line-rate="1.0" branch-rate="1.0">
 							<lines>
+<<<<<<< HEAD
 								<line number="37" hits="2" branch="false"/>
+=======
+								<line number="32" hits="1" branch="false"/>
+>>>>>>> req_profesor
 							</lines>
 						</method>
 						<method name="listar" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
 							<lines>
+<<<<<<< HEAD
 								<line number="151" hits="47" branch="false"/>
 								<line number="152" hits="47" branch="false"/>
 								<line number="153" hits="47" branch="true" condition-coverage="100 % (2/2)">
+=======
+								<line number="124" hits="5" branch="false"/>
+								<line number="125" hits="5" branch="false"/>
+								<line number="126" hits="5" branch="true" condition-coverage="100 % (2/2)">
+>>>>>>> req_profesor
 									<conditions>
 										<condition number="0" type="jump" coverage="100 %"/>
 									</conditions>
 								</line>
+<<<<<<< HEAD
 								<line number="155" hits="45" branch="false"/>
 								<line number="157" hits="45" branch="false"/>
 								<line number="159" hits="156" branch="true" condition-coverage="100 % (2/2)">
+=======
+								<line number="128" hits="1" branch="false"/>
+								<line number="130" hits="1" branch="false"/>
+								<line number="132" hits="2" branch="true" condition-coverage="100 % (2/2)">
+>>>>>>> req_profesor
 									<conditions>
 										<condition number="0" type="jump" coverage="100 %"/>
 									</conditions>
 								</line>
+<<<<<<< HEAD
 								<line number="161" hits="111" branch="false"/>
 								<line number="162" hits="111" branch="false"/>
 								<line number="163" hits="111" branch="false"/>
@@ -1162,24 +1845,50 @@
 						<method name="removerPorPosicion" signature="(I)Ljava/lang/String;" line-rate="0.25" branch-rate="0.25">
 							<lines>
 								<line number="110" hits="1" branch="true" condition-coverage="50 % (2/4)">
+=======
+								<line number="134" hits="1" branch="false"/>
+								<line number="135" hits="1" branch="false"/>
+								<line number="136" hits="1" branch="false"/>
+								<line number="138" hits="1" branch="false"/>
+								<line number="140" hits="1" branch="false"/>
+								<line number="143" hits="5" branch="false"/>
+								<line number="145" hits="5" branch="false"/>
+								<line number="146" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="removerPorPosicion" signature="(I)Ljava/lang/String;" line-rate="0.2727272727272727" branch-rate="0.25">
+							<lines>
+								<line number="86" hits="1" branch="true" condition-coverage="50 % (2/4)">
+>>>>>>> req_profesor
 									<conditions>
 										<condition number="0" type="jump" coverage="50 %"/>
 										<condition number="1" type="jump" coverage="50 %"/>
 									</conditions>
 								</line>
+<<<<<<< HEAD
 								<line number="112" hits="0" branch="true" condition-coverage="0 % (0/2)">
+=======
+								<line number="88" hits="0" branch="true" condition-coverage="0 % (0/2)">
+>>>>>>> req_profesor
 									<conditions>
 										<condition number="0" type="jump" coverage="0 %"/>
 									</conditions>
 								</line>
+<<<<<<< HEAD
 								<line number="114" hits="0" branch="false"/>
 								<line number="115" hits="0" branch="false"/>
 								<line number="121" hits="0" branch="false"/>
 								<line number="123" hits="0" branch="true" condition-coverage="0 % (0/2)">
+=======
+								<line number="90" hits="0" branch="false"/>
+								<line number="96" hits="0" branch="false"/>
+								<line number="98" hits="0" branch="true" condition-coverage="0 % (0/2)">
+>>>>>>> req_profesor
 									<conditions>
 										<condition number="0" type="jump" coverage="0 %"/>
 									</conditions>
 								</line>
+<<<<<<< HEAD
 								<line number="124" hits="0" branch="false"/>
 								<line number="127" hits="0" branch="false"/>
 								<line number="129" hits="0" branch="false"/>
@@ -1451,10 +2160,19 @@
 								<line number="197" hits="1" branch="false"/>
 								<line number="199" hits="3" branch="false"/>
 >>>>>>> req_Auxiliar
+=======
+								<line number="99" hits="0" branch="false"/>
+								<line number="102" hits="0" branch="false"/>
+								<line number="104" hits="0" branch="false"/>
+								<line number="107" hits="0" branch="false"/>
+								<line number="109" hits="1" branch="false"/>
+								<line number="110" hits="1" branch="false"/>
+>>>>>>> req_profesor
 							</lines>
 						</method>
 					</methods>
 					<lines>
+<<<<<<< HEAD
 <<<<<<< HEAD
 						<line number="18" hits="25" branch="false"/>
 						<line number="24" hits="0" branch="false"/>
@@ -1471,10 +2189,18 @@
 						<line number="41" hits="46" branch="false"/>
 						<line number="42" hits="46" branch="false"/>
 						<line number="43" hits="46" branch="true" condition-coverage="100 % (2/2)">
+=======
+						<line number="18" hits="7" branch="false"/>
+						<line number="23" hits="0" branch="false"/>
+						<line number="24" hits="0" branch="false"/>
+						<line number="25" hits="0" branch="false"/>
+						<line number="28" hits="7" branch="true" condition-coverage="100 % (2/2)">
+>>>>>>> req_profesor
 							<conditions>
 								<condition number="0" type="jump" coverage="100 %"/>
 							</conditions>
 						</line>
+<<<<<<< HEAD
 						<line number="44" hits="45" branch="true" condition-coverage="100 % (2/2)">
 							<conditions>
 								<condition number="0" type="jump" coverage="100 %"/>
@@ -1499,47 +2225,99 @@
 							</conditions>
 						</line>
 						<line number="77" hits="1" branch="true" condition-coverage="50 % (2/4)">
+=======
+						<line number="32" hits="1" branch="false"/>
+						<line number="36" hits="1" branch="false"/>
+						<line number="37" hits="1" branch="false"/>
+						<line number="38" hits="1" branch="true" condition-coverage="50 % (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50 %"/>
+							</conditions>
+						</line>
+						<line number="40" hits="1" branch="false"/>
+						<line number="44" hits="0" branch="false"/>
+						<line number="46" hits="0" branch="true" condition-coverage="0 % (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0 %"/>
+							</conditions>
+						</line>
+						<line number="47" hits="0" branch="false"/>
+						<line number="50" hits="0" branch="false"/>
+						<line number="53" hits="1" branch="false"/>
+						<line number="54" hits="1" branch="false"/>
+						<line number="55" hits="1" branch="false"/>
+						<line number="61" hits="1" branch="true" condition-coverage="50 % (2/4)">
+>>>>>>> req_profesor
 							<conditions>
 								<condition number="0" type="jump" coverage="50 %"/>
 								<condition number="1" type="jump" coverage="50 %"/>
 							</conditions>
 						</line>
+<<<<<<< HEAD
 						<line number="79" hits="0" branch="true" condition-coverage="0 % (0/2)">
+=======
+						<line number="63" hits="0" branch="true" condition-coverage="0 % (0/2)">
+>>>>>>> req_profesor
 							<conditions>
 								<condition number="0" type="jump" coverage="0 %"/>
 							</conditions>
 						</line>
+<<<<<<< HEAD
 						<line number="81" hits="0" branch="false"/>
 						<line number="86" hits="0" branch="false"/>
 						<line number="88" hits="0" branch="true" condition-coverage="0 % (0/2)">
+=======
+						<line number="65" hits="0" branch="false"/>
+						<line number="70" hits="0" branch="false"/>
+						<line number="72" hits="0" branch="true" condition-coverage="0 % (0/2)">
+>>>>>>> req_profesor
 							<conditions>
 								<condition number="0" type="jump" coverage="0 %"/>
 							</conditions>
 						</line>
+<<<<<<< HEAD
 						<line number="89" hits="0" branch="false"/>
 						<line number="92" hits="0" branch="false"/>
 						<line number="95" hits="1" branch="false"/>
 						<line number="96" hits="1" branch="false"/>
 						<line number="98" hits="1" branch="false"/>
 						<line number="110" hits="1" branch="true" condition-coverage="50 % (2/4)">
+=======
+						<line number="73" hits="0" branch="false"/>
+						<line number="76" hits="0" branch="false"/>
+						<line number="79" hits="1" branch="false"/>
+						<line number="80" hits="1" branch="false"/>
+						<line number="86" hits="1" branch="true" condition-coverage="50 % (2/4)">
+>>>>>>> req_profesor
 							<conditions>
 								<condition number="0" type="jump" coverage="50 %"/>
 								<condition number="1" type="jump" coverage="50 %"/>
 							</conditions>
 						</line>
+<<<<<<< HEAD
 						<line number="112" hits="0" branch="true" condition-coverage="0 % (0/2)">
+=======
+						<line number="88" hits="0" branch="true" condition-coverage="0 % (0/2)">
+>>>>>>> req_profesor
 							<conditions>
 								<condition number="0" type="jump" coverage="0 %"/>
 							</conditions>
 						</line>
+<<<<<<< HEAD
 						<line number="114" hits="0" branch="false"/>
 						<line number="115" hits="0" branch="false"/>
 						<line number="121" hits="0" branch="false"/>
 						<line number="123" hits="0" branch="true" condition-coverage="0 % (0/2)">
+=======
+						<line number="90" hits="0" branch="false"/>
+						<line number="96" hits="0" branch="false"/>
+						<line number="98" hits="0" branch="true" condition-coverage="0 % (0/2)">
+>>>>>>> req_profesor
 							<conditions>
 								<condition number="0" type="jump" coverage="0 %"/>
 							</conditions>
 						</line>
+<<<<<<< HEAD
 						<line number="124" hits="0" branch="false"/>
 						<line number="127" hits="0" branch="false"/>
 						<line number="129" hits="0" branch="false"/>
@@ -1552,17 +2330,38 @@
 						<line number="151" hits="47" branch="false"/>
 						<line number="152" hits="47" branch="false"/>
 						<line number="153" hits="47" branch="true" condition-coverage="100 % (2/2)">
+=======
+						<line number="99" hits="0" branch="false"/>
+						<line number="102" hits="0" branch="false"/>
+						<line number="104" hits="0" branch="false"/>
+						<line number="107" hits="0" branch="false"/>
+						<line number="109" hits="1" branch="false"/>
+						<line number="110" hits="1" branch="false"/>
+						<line number="115" hits="0" branch="false"/>
+						<line number="117" hits="0" branch="false"/>
+						<line number="118" hits="0" branch="false"/>
+						<line number="124" hits="5" branch="false"/>
+						<line number="125" hits="5" branch="false"/>
+						<line number="126" hits="5" branch="true" condition-coverage="100 % (2/2)">
+>>>>>>> req_profesor
 							<conditions>
 								<condition number="0" type="jump" coverage="100 %"/>
 							</conditions>
 						</line>
+<<<<<<< HEAD
 						<line number="155" hits="45" branch="false"/>
 						<line number="157" hits="45" branch="false"/>
 						<line number="159" hits="156" branch="true" condition-coverage="100 % (2/2)">
+=======
+						<line number="128" hits="1" branch="false"/>
+						<line number="130" hits="1" branch="false"/>
+						<line number="132" hits="2" branch="true" condition-coverage="100 % (2/2)">
+>>>>>>> req_profesor
 							<conditions>
 								<condition number="0" type="jump" coverage="100 %"/>
 							</conditions>
 						</line>
+<<<<<<< HEAD
 						<line number="161" hits="111" branch="false"/>
 						<line number="162" hits="111" branch="false"/>
 						<line number="163" hits="111" branch="false"/>
@@ -1575,10 +2374,25 @@
 						<line number="179" hits="47" branch="false"/>
 						<line number="180" hits="47" branch="false"/>
 						<line number="182" hits="47" branch="true" condition-coverage="50 % (1/2)">
+=======
+						<line number="134" hits="1" branch="false"/>
+						<line number="135" hits="1" branch="false"/>
+						<line number="136" hits="1" branch="false"/>
+						<line number="138" hits="1" branch="false"/>
+						<line number="140" hits="1" branch="false"/>
+						<line number="143" hits="5" branch="false"/>
+						<line number="145" hits="5" branch="false"/>
+						<line number="146" hits="5" branch="false"/>
+						<line number="151" hits="5" branch="false"/>
+						<line number="152" hits="5" branch="false"/>
+						<line number="153" hits="5" branch="false"/>
+						<line number="155" hits="5" branch="true" condition-coverage="50 % (1/2)">
+>>>>>>> req_profesor
 							<conditions>
 								<condition number="0" type="jump" coverage="50 %"/>
 							</conditions>
 						</line>
+<<<<<<< HEAD
 						<line number="183" hits="0" branch="false"/>
 						<line number="185" hits="47" branch="false"/>
 						<line number="186" hits="47" branch="false"/>
@@ -1641,10 +2455,75 @@
 						<line number="261" hits="0" branch="false"/>
 						<line number="263" hits="0" branch="false"/>
 						<line number="264" hits="1" branch="true" condition-coverage="50 % (1/2)">
+=======
+						<line number="156" hits="0" branch="false"/>
+						<line number="158" hits="5" branch="false"/>
+						<line number="159" hits="5" branch="false"/>
+						<line number="160" hits="5" branch="false"/>
+						<line number="161" hits="5" branch="false"/>
+						<line number="162" hits="0" branch="false"/>
+						<line number="163" hits="0" branch="false"/>
+						<line number="164" hits="5" branch="false"/>
+						<line number="165" hits="5" branch="false"/>
+						<line number="168" hits="0" branch="false"/>
+						<line number="169" hits="0" branch="false"/>
+						<line number="170" hits="0" branch="false"/>
+						<line number="171" hits="0" branch="false"/>
+						<line number="176" hits="0" branch="false"/>
+						<line number="177" hits="0" branch="false"/>
+						<line number="178" hits="0" branch="false"/>
+						<line number="183" hits="0" branch="true" condition-coverage="0 % (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0 %"/>
+							</conditions>
+						</line>
+						<line number="185" hits="0" branch="false"/>
+						<line number="188" hits="0" branch="false"/>
+						<line number="189" hits="0" branch="false"/>
+						<line number="191" hits="0" branch="false"/>
+						<line number="192" hits="0" branch="true" condition-coverage="0 % (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0 %"/>
+							</conditions>
+						</line>
+						<line number="193" hits="0" branch="false"/>
+						<line number="195" hits="0" branch="false"/>
+						<line number="196" hits="0" branch="false"/>
+						<line number="197" hits="0" branch="false"/>
+						<line number="198" hits="0" branch="false"/>
+						<line number="200" hits="0" branch="false"/>
+						<line number="201" hits="0" branch="true" condition-coverage="0 % (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0 %"/>
+							</conditions>
+						</line>
+						<line number="202" hits="0" branch="false"/>
+						<line number="205" hits="0" branch="false"/>
+						<line number="208" hits="0" branch="false"/>
+						<line number="211" hits="0" branch="false"/>
+						<line number="214" hits="1" branch="false"/>
+						<line number="215" hits="1" branch="false"/>
+						<line number="216" hits="1" branch="false"/>
+						<line number="217" hits="1" branch="false"/>
+						<line number="222" hits="1" branch="false"/>
+						<line number="223" hits="1" branch="false"/>
+						<line number="224" hits="1" branch="false"/>
+						<line number="229" hits="1" branch="true" condition-coverage="50 % (1/2)">
 							<conditions>
 								<condition number="0" type="jump" coverage="50 %"/>
 							</conditions>
 						</line>
+						<line number="231" hits="0" branch="false"/>
+						<line number="234" hits="0" branch="false"/>
+						<line number="235" hits="0" branch="false"/>
+						<line number="237" hits="0" branch="false"/>
+						<line number="238" hits="1" branch="true" condition-coverage="50 % (1/2)">
+>>>>>>> req_profesor
+							<conditions>
+								<condition number="0" type="jump" coverage="50 %"/>
+							</conditions>
+						</line>
+<<<<<<< HEAD
 						<line number="265" hits="1" branch="false"/>
 						<line number="267" hits="0" branch="false"/>
 						<line number="268" hits="0" branch="false"/>
@@ -1663,41 +2542,95 @@
 						<method name="Eliminar" signature="()I" line-rate="0.0" branch-rate="1.0">
 							<lines>
 								<line number="65" hits="0" branch="false"/>
+=======
+						<line number="239" hits="1" branch="false"/>
+						<line number="241" hits="0" branch="false"/>
+						<line number="242" hits="0" branch="false"/>
+						<line number="243" hits="1" branch="false"/>
+						<line number="244" hits="0" branch="false"/>
+						<line number="247" hits="1" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.mycompany.mavenproject1.NodoProfesor" filename="com/mycompany/mavenproject1/NodoProfesor.java" line-rate="0.55" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="12" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="Eliminar" signature="()I" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="71" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="Nodo" signature="()V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="18" hits="0" branch="false"/>
+								<line number="19" hits="0" branch="false"/>
+								<line number="20" hits="0" branch="false"/>
+>>>>>>> req_profesor
 							</lines>
 						</method>
 						<method name="getAnterior" signature="()Z" line-rate="0.0" branch-rate="1.0">
 							<lines>
+<<<<<<< HEAD
 								<line number="53" hits="0" branch="false"/>
+=======
+								<line number="59" hits="0" branch="false"/>
+>>>>>>> req_profesor
 							</lines>
 						</method>
 						<method name="getPrimero" signature="()I" line-rate="0.0" branch-rate="1.0">
 							<lines>
+<<<<<<< HEAD
 								<line number="57" hits="0" branch="false"/>
 							</lines>
 						</method>
 						<method name="getSig" signature="()Lcom/mycompany/mavenproject1/NodoCurso;" line-rate="1.0" branch-rate="1.0">
 							<lines>
 								<line number="41" hits="210" branch="false"/>
+=======
+								<line number="63" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getSig" signature="()Lcom/mycompany/mavenproject1/NodoProfesor;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="35" hits="1" branch="false"/>
+>>>>>>> req_profesor
 							</lines>
 						</method>
 						<method name="getSiguiente" signature="()Z" line-rate="0.0" branch-rate="1.0">
 							<lines>
+<<<<<<< HEAD
 								<line number="49" hits="0" branch="false"/>
+=======
+								<line number="55" hits="0" branch="false"/>
+>>>>>>> req_profesor
 							</lines>
 						</method>
 						<method name="getUltimo" signature="()I" line-rate="0.0" branch-rate="1.0">
 							<lines>
+<<<<<<< HEAD
 								<line number="61" hits="0" branch="false"/>
+=======
+								<line number="67" hits="0" branch="false"/>
+>>>>>>> req_profesor
 							</lines>
 						</method>
 						<method name="getVal" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
 							<lines>
+<<<<<<< HEAD
 								<line number="27" hits="333" branch="false"/>
 								<line number="28" hits="333" branch="false"/>
+=======
+								<line number="25" hits="4" branch="false"/>
+								<line number="26" hits="4" branch="false"/>
+>>>>>>> req_profesor
 							</lines>
 						</method>
 						<method name="getValor" signature="()[Ljava/lang/String;" line-rate="0.0" branch-rate="1.0">
 							<lines>
+<<<<<<< HEAD
 								<line number="23" hits="0" branch="false"/>
 								<line number="24" hits="0" branch="false"/>
 							</lines>
@@ -2007,10 +2940,33 @@
 								<line number="70" hits="179" branch="false"/>
 								<line number="71" hits="179" branch="false"/>
 >>>>>>> req_Auxiliar
+=======
+								<line number="46" hits="0" branch="false"/>
+								<line number="47" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setSig" signature="(Lcom/mycompany/mavenproject1/NodoProfesor;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="39" hits="1" branch="false"/>
+								<line number="40" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="setValor" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="51" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="setValor" signature="(ILjava/lang/String;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="30" hits="2" branch="false"/>
+								<line number="31" hits="2" branch="false"/>
+								<line number="32" hits="2" branch="false"/>
+>>>>>>> req_profesor
 							</lines>
 						</method>
 					</methods>
 					<lines>
+<<<<<<< HEAD
 <<<<<<< HEAD
 						<line number="14" hits="46" branch="false"/>
 						<line number="23" hits="0" branch="false"/>
@@ -2086,6 +3042,28 @@
 					</methods>
 					<lines>
 >>>>>>> req_Auxiliar
+=======
+						<line number="12" hits="6" branch="false"/>
+						<line number="18" hits="0" branch="false"/>
+						<line number="19" hits="0" branch="false"/>
+						<line number="20" hits="0" branch="false"/>
+						<line number="25" hits="4" branch="false"/>
+						<line number="26" hits="4" branch="false"/>
+						<line number="30" hits="2" branch="false"/>
+						<line number="31" hits="2" branch="false"/>
+						<line number="32" hits="2" branch="false"/>
+						<line number="35" hits="1" branch="false"/>
+						<line number="39" hits="1" branch="false"/>
+						<line number="40" hits="1" branch="false"/>
+						<line number="46" hits="0" branch="false"/>
+						<line number="47" hits="0" branch="false"/>
+						<line number="51" hits="1" branch="false"/>
+						<line number="55" hits="0" branch="false"/>
+						<line number="59" hits="0" branch="false"/>
+						<line number="63" hits="0" branch="false"/>
+						<line number="67" hits="0" branch="false"/>
+						<line number="71" hits="1" branch="false"/>
+>>>>>>> req_profesor
 					</lines>
 				</class>
 			</classes>
