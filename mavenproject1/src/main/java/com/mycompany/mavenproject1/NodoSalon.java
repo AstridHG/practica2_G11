@@ -87,17 +87,5 @@ public class NodoSalon {
         }
         return true;
     }   
-    
-     public boolean getSiguiente() {
-        return true;
-    }
 
-     public void setCapacidadSalon(NodoSalon NSTemp){
-        if(NSTemp.getSiguiente()){
-            
-        }
-        else{
-            throw new IllegalArgumentException("La cantidad debe ser menor o igual a 200");
-        }
-    }
 }

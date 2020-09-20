@@ -39,8 +39,8 @@ public class NodoSalonTest {
     public void setUp() {
         NSValido = mock(NodoSalon.class);
         NSInvalido = mock(NodoSalon.class);
-        when(NSValido.getSiguiente()).thenReturn(false);
-        when(NSInvalido.getSiguiente()).thenReturn(true);
+        when(NSValido.setValue(201, "T3",-9,1, 10)).thenReturn(false);
+        when(NSInvalido.setValue(201, "T3",100, 2, 9)).thenReturn(true);
         
     /*    NS = new NodoSalon();
         NS.getValor();
