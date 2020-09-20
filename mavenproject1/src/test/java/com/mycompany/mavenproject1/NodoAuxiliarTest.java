@@ -19,12 +19,14 @@ import static org.mockito.Mockito.when;
 
 /**
  *
- * @author tu3
+ * @author astridhernandez
  */
 public class NodoAuxiliarTest {
     
     ListaAuxiliar auxiliar = new ListaAuxiliar();
     InterfazAuxiliar i = new InterfazAuxiliar();
+    
+    private ListaAuxiliar lis;
     
     public NodoAuxiliarTest() {
     }
@@ -39,7 +41,9 @@ public class NodoAuxiliarTest {
     
     @Before
     public void setUp() {
-        
+        lis = mock(ListaAuxiliar.class);
+        when(lis.listaVacia()).thenReturn(true);
+        assertEquals("Es true",true,auxiliar.listaVacia());
     }
     
     @After
@@ -166,7 +170,9 @@ public class NodoAuxiliarTest {
     {
         auxiliar.Leer();
         String listar = auxiliar.listarAuxiliar();
-        assertNotSame("Los valorer no iguales:",listar,auxiliar.listarAuxiliar());
+        assertNotSame("Los valores no iguales:",listar,auxiliar.listarAuxiliar());
     }
+    
+    
     
 }

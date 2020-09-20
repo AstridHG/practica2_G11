@@ -7,7 +7,7 @@ package com.mycompany.mavenproject1;
 
 /**
  *
- * @author tu3
+ * @author astridhernandez
  */
 public class NodoAuxiliar {
     private int    codigoPersonal;

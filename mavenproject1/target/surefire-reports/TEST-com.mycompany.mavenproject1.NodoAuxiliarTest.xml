@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="20" failures="0" name="com.mycompany.mavenproject1.NodoAuxiliarTest" time="0.011" errors="0" skipped="0">
+<testsuite tests="20" failures="0" name="com.mycompany.mavenproject1.NodoAuxiliarTest" time="0.188" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/home/astridhernandez/jdk1.8.0_111/jre/lib/amd64"/>
@@ -67,24 +67,24 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.mycompany.mavenproject1.NodoAuxiliarTest" name="testInsertarAuxiliarInCorrecto" time="0.003"/>
-  <testcase classname="com.mycompany.mavenproject1.NodoAuxiliarTest" name="testNombreInCorrecto" time="0.001"/>
-  <testcase classname="com.mycompany.mavenproject1.NodoAuxiliarTest" name="testEliminarAuxiliarCorrecto1" time="0.001"/>
-  <testcase classname="com.mycompany.mavenproject1.NodoAuxiliarTest" name="testEliminarAuxiliarCorrecto2" time="0"/>
-  <testcase classname="com.mycompany.mavenproject1.NodoAuxiliarTest" name="testNombreCorrecto" time="0"/>
-  <testcase classname="com.mycompany.mavenproject1.NodoAuxiliarTest" name="testCodigoPersonalNegativo" time="0.001"/>
-  <testcase classname="com.mycompany.mavenproject1.NodoAuxiliarTest" name="testEliminarAuxiliarCorrecto" time="0"/>
-  <testcase classname="com.mycompany.mavenproject1.NodoAuxiliarTest" name="testEliminarAuxiliarIncorrecto" time="0"/>
-  <testcase classname="com.mycompany.mavenproject1.NodoAuxiliarTest" name="testListaVacia" time="0.001"/>
+  <testcase classname="com.mycompany.mavenproject1.NodoAuxiliarTest" name="testInsertarAuxiliarInCorrecto" time="0.17"/>
+  <testcase classname="com.mycompany.mavenproject1.NodoAuxiliarTest" name="testNombreInCorrecto" time="0"/>
+  <testcase classname="com.mycompany.mavenproject1.NodoAuxiliarTest" name="testEliminarAuxiliarCorrecto1" time="0"/>
+  <testcase classname="com.mycompany.mavenproject1.NodoAuxiliarTest" name="testEliminarAuxiliarCorrecto2" time="0.001"/>
+  <testcase classname="com.mycompany.mavenproject1.NodoAuxiliarTest" name="testNombreCorrecto" time="0.001"/>
+  <testcase classname="com.mycompany.mavenproject1.NodoAuxiliarTest" name="testCodigoPersonalNegativo" time="0.002"/>
+  <testcase classname="com.mycompany.mavenproject1.NodoAuxiliarTest" name="testEliminarAuxiliarCorrecto" time="0.004"/>
+  <testcase classname="com.mycompany.mavenproject1.NodoAuxiliarTest" name="testEliminarAuxiliarIncorrecto" time="0.001"/>
+  <testcase classname="com.mycompany.mavenproject1.NodoAuxiliarTest" name="testListaVacia" time="0.002"/>
   <testcase classname="com.mycompany.mavenproject1.NodoAuxiliarTest" name="testCodigoPersonalIncorrecto" time="0.001"/>
   <testcase classname="com.mycompany.mavenproject1.NodoAuxiliarTest" name="testInsertarAuxiliarCorrecto" time="0"/>
-  <testcase classname="com.mycompany.mavenproject1.NodoAuxiliarTest" name="testListarAuxInCorrecto" time="0"/>
+  <testcase classname="com.mycompany.mavenproject1.NodoAuxiliarTest" name="testListarAuxInCorrecto" time="0.002"/>
   <testcase classname="com.mycompany.mavenproject1.NodoAuxiliarTest" name="testSeccionInCorrecto" time="0.001"/>
   <testcase classname="com.mycompany.mavenproject1.NodoAuxiliarTest" name="testSeccionCorrecto" time="0"/>
   <testcase classname="com.mycompany.mavenproject1.NodoAuxiliarTest" name="testCodigoPersonalCorrecto" time="0"/>
   <testcase classname="com.mycompany.mavenproject1.NodoAuxiliarTest" name="testCursoCorrecto" time="0.001"/>
   <testcase classname="com.mycompany.mavenproject1.NodoAuxiliarTest" name="testCursoInCorrecto" time="0"/>
   <testcase classname="com.mycompany.mavenproject1.NodoAuxiliarTest" name="testContrasenaCorrecto" time="0"/>
-  <testcase classname="com.mycompany.mavenproject1.NodoAuxiliarTest" name="testEliminarAuxiliar3" time="0"/>
+  <testcase classname="com.mycompany.mavenproject1.NodoAuxiliarTest" name="testEliminarAuxiliar3" time="0.001"/>
   <testcase classname="com.mycompany.mavenproject1.NodoAuxiliarTest" name="testContrasenaInCorrecto" time="0.001"/>
 </testsuite>
