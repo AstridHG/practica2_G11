@@ -86,38 +86,28 @@ public class ListaAuxiliar {
     }
 
     public String listarAuxiliar() {
-        String contenido = "";
         String contenido2 = "";
 
         if (this.lista != null) {
             NodoAuxiliar aux = this.lista;
 
-            while (aux.getSiguiente() != null) {
+            while (aux != null) {
 
-                System.out.print("[ " + aux.getCodigoPersonal() + "," + aux.getNombre() + "," + aux.getContrasena() + ","
-                        + aux.getCurso() + "," + aux.getSeccion() + " ]" + " ->  ");
-
-                contenido2 += "[ " + aux.getCodigoPersonal() + "," + aux.getNombre() + "," + aux.getContrasena() + ","
-                        + aux.getCurso() + "," + aux.getSeccion() + " ]" + " ->  ";
-
-                contenido += +aux.getCodigoPersonal() + "," + aux.getNombre() + "," + aux.getContrasena() + ","
-                        + aux.getCurso() + "," + aux.getSeccion() + ";";
+                contenido2 += aux.getCodigoPersonal() + "," + aux.getNombre() + ","
+                        + aux.getCurso() + "," + aux.getSeccion() + "," + aux.getContrasena() + "\n";
 
                 aux = aux.getSiguiente();
             }
         }
-        System.out.println("");
-
-        escribirArchivo(contenido);
         return contenido2;
     }
 
     public void escribirArchivo(String cont) {
         try {
-            String ruta = "BDA.txt";
+            String ruta = "BDAux.txt";
             String contenido = cont;
             File file = new File(ruta);
-            // Si el archivo no existe es creado
+
             if (!file.exists()) {
                 file.createNewFile();
             }
@@ -137,14 +127,16 @@ public class ListaAuxiliar {
         String contenido = "";
 
         try {
-            archivo = new File("BDA.txt");
-            fr = new FileReader(archivo);
-            br = new BufferedReader(fr);
+            archivo = new File("BDAux.txt");
 
-            // Lectura del fichero
-            String linea;
-            while ((linea = br.readLine()) != null) {
-                contenido += linea;
+            if (archivo.exists()) {
+                fr = new FileReader(archivo);
+                br = new BufferedReader(fr);
+
+                String linea;
+                while ((linea = br.readLine()) != null) {
+                    contenido += linea + "\n";
+                }
             }
         } catch (Exception e) {
             e.printStackTrace();
@@ -158,51 +150,21 @@ public class ListaAuxiliar {
             }
         }
 
-        String[] parts = contenido.split(";");
+        if (!contenido.equals("")) {
+            System.out.println(contenido);
+            String[] parts = contenido.split("\\r\\n|\\n|\\r");
+            for (int i = 0; i < parts.length; i++) {
+                String subparte = parts[i];
 
-        for (int i = 0; i < parts.length; i++) {
-            String subparte = parts[i];
+                String[] parts2 = subparte.split(",");
 
-            String[] parts2 = subparte.split(",");
-            //System.out.println(parts2[0]);
-            //System.out.println(parts2[1]);
-            setAuxiliar(Integer.parseInt(parts2[0]), parts2[1], parts2[2], parts2[3].charAt(0), parts2[4]);
+                setAuxiliar(Integer.parseInt(parts2[0]), parts2[1], parts2[2], parts2[3].charAt(0), parts2[4]);
+            }
         }
 
     }
 
-    public String Mostrar() {
-        File archivo = null;
-        FileReader fr = null;
-        BufferedReader br = null;
-        String contenido = "";
-
-        try {
-            archivo = new File("BDA.txt");
-            fr = new FileReader(archivo);
-            br = new BufferedReader(fr);
-
-            // Lectura del fichero
-            String linea;
-            while ((linea = br.readLine()) != null) {
-                //System.out.println(linea);
-                contenido += linea;
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        } finally {
-            try {
-                if (null != fr) {
-                    fr.close();
-                }
-            } catch (Exception e2) {
-                e2.printStackTrace();
-            }
-        }
-
-        return contenido;
-
-    }
+    
 
 //validaciones de atributoss
     public int validarCodigoPersonal(int codigoPersonal) //assertEqual
@@ -223,7 +185,7 @@ public class ListaAuxiliar {
 
     public String validarCurso(String curso) //assertnotnull
     {
-        if (curso == null) {
+        if (curso.equals("")) {
             return null;
         }
         return curso;
@@ -239,9 +201,10 @@ public class ListaAuxiliar {
 
     public String validarContrasena(String contrasena) //assertsame
     {
-        if (contrasena.length() <= 8) {
+        if (contrasena.length() >= 8) {
+
             return contrasena;
         }
-        return null;
+        return "invalida";
     }
 }
