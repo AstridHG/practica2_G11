@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="0" name="com.mycompany.mavenproject1.NodoProfesorTest" time="0.011" errors="0" skipped="0">
+<testsuite tests="7" failures="0" name="com.mycompany.mavenproject1.ListaProfesorTest" time="0.151" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.8+10-post-Ubuntu-0ubuntu120.04"/>
@@ -13,6 +13,7 @@
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="user.country" value="GT"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="test" value="com.mycompany.mavenproject1.ListaProfesorTest"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="/home/esdras/Documentos/Projects/practica2_G11/mavenproject1"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
@@ -24,7 +25,6 @@
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Linux"/>
-    <property name="net.sourceforge.cobertura.datafile" value="/home/esdras/Documentos/Projects/practica2_G11/mavenproject1/target/cobertura/cobertura.ser"/>
     <property name="maven.ext.class.path" value="/snap/netbeans/35/netbeans/java/maven-nblib/netbeans-eventspy.jar"/>
     <property name="classworlds.conf" value="/snap/netbeans/35/netbeans/java/maven/bin/m2.conf"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -34,8 +34,6 @@
     <property name="java.class.version" value="55.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="cobertura.report.format" value="xml"/>
-    <property name="skipTests" value="false"/>
     <property name="os.version" value="5.4.0-47-generic"/>
     <property name="library.jansi.path" value="/snap/netbeans/35/netbeans/java/maven/lib/jansi-native"/>
     <property name="user.home" value="/home/esdras"/>
@@ -47,7 +45,7 @@
     <property name="java.class.path" value="/snap/netbeans/35/netbeans/java/maven/boot/plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -DskipTests=false -Dcobertura.report.format=xml -Dmaven.ext.class.path=/snap/netbeans/35/netbeans/java/maven-nblib/netbeans-eventspy.jar cobertura:clean cobertura:cobertura"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=com.mycompany.mavenproject1.ListaProfesorTest -Dmaven.ext.class.path=/snap/netbeans/35/netbeans/java/maven-nblib/netbeans-eventspy.jar test-compile surefire:test"/>
     <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
     <property name="user.language" value="es"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -62,13 +60,14 @@
     <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="project.build.outputDirectory" value="/home/esdras/Documentos/Projects/practica2_G11/mavenproject1/target/generated-classes/cobertura"/>
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.mycompany.mavenproject1.NodoProfesorTest" name="testSetValor_0args" time="0.009"/>
-  <testcase classname="com.mycompany.mavenproject1.NodoProfesorTest" name="testEliminar" time="0"/>
-  <testcase classname="com.mycompany.mavenproject1.NodoProfesorTest" name="testGetVal" time="0"/>
-  <testcase classname="com.mycompany.mavenproject1.NodoProfesorTest" name="testSetSig" time="0.001"/>
-  <testcase classname="com.mycompany.mavenproject1.NodoProfesorTest" name="testSetValor_int_String" time="0.001"/>
+  <testcase classname="com.mycompany.mavenproject1.ListaProfesorTest" name="testEsVacia" time="0.139"/>
+  <testcase classname="com.mycompany.mavenproject1.ListaProfesorTest" name="testGetTamanio" time="0"/>
+  <testcase classname="com.mycompany.mavenproject1.ListaProfesorTest" name="testEditarPorPosicion" time="0.005"/>
+  <testcase classname="com.mycompany.mavenproject1.ListaProfesorTest" name="testMostrar" time="0.002"/>
+  <testcase classname="com.mycompany.mavenproject1.ListaProfesorTest" name="testRemoverPorPosicion" time="0.002"/>
+  <testcase classname="com.mycompany.mavenproject1.ListaProfesorTest" name="testAgregarAlFinal" time="0.002"/>
+  <testcase classname="com.mycompany.mavenproject1.ListaProfesorTest" name="testListar" time="0.001"/>
 </testsuite>
