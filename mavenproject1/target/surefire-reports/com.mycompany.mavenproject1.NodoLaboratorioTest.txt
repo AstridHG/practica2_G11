@@ -1,0 +1,109 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.mavenproject1.NodoLaboratorioTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.011 sec <<< FAILURE! - in com.mycompany.mavenproject1.NodoLaboratorioTest
+NodoEstudiante_testmockSetEdadEstudiante(com.mycompany.mavenproject1.NodoLaboratorioTest)  Time elapsed: 0.005 sec  <<< ERROR!
+java.lang.VerifyError: 
+Expecting a stackmap frame at branch target 44
+Exception Details:
+  Location:
+    com/mycompany/mavenproject1/NodoLaboratorio.setCapacidadSalon(Lcom/mycompany/mavenproject1/NodoSalon;)V @26: ifeq
+  Reason:
+    Expected stackmap frame at this location.
+  Bytecode:
+    0000000: 033d 11ff ff3e 1212 1100 33b8 0018 2bb6
+    0000010: 0032 1100 333d 1100 003e 9900 1212 121c
+    0000020: 1d04 b800 3611 ffff 3ea7 0025 1d9b 000f
+    0000030: 1212 1c1d 03b8 0036 11ff ff3e 1212 1100
+    0000040: 37b8 0018 bb00 3859 123a b700 3dbf 1212
+    0000050: 1100 39b8 0018 b1                      
+  Stackmap Table:
+    same_frame_extended(@68)
+    same_frame(@86)
+
+	at com.mycompany.mavenproject1.NodoLaboratorioTest.setUp(NodoLaboratorioTest.java:53)
+
+NodoCurso_testmockSetCapacidadCurso(com.mycompany.mavenproject1.NodoLaboratorioTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.VerifyError: 
+Expecting a stackmap frame at branch target 44
+Exception Details:
+  Location:
+    com/mycompany/mavenproject1/NodoLaboratorio.setCapacidadSalon(Lcom/mycompany/mavenproject1/NodoSalon;)V @26: ifeq
+  Reason:
+    Expected stackmap frame at this location.
+  Bytecode:
+    0000000: 033d 11ff ff3e 1212 1100 33b8 0018 2bb6
+    0000010: 0032 1100 333d 1100 003e 9900 1212 121c
+    0000020: 1d04 b800 3611 ffff 3ea7 0025 1d9b 000f
+    0000030: 1212 1c1d 03b8 0036 11ff ff3e 1212 1100
+    0000040: 37b8 0018 bb00 3859 123a b700 3dbf 1212
+    0000050: 1100 39b8 0018 b1                      
+  Stackmap Table:
+    same_frame_extended(@68)
+    same_frame(@86)
+
+	at com.mycompany.mavenproject1.NodoLaboratorioTest.setUp(NodoLaboratorioTest.java:53)
+
+NodoAuxiliar_testmockSetEdadAuxiliar(com.mycompany.mavenproject1.NodoLaboratorioTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.VerifyError: 
+Expecting a stackmap frame at branch target 44
+Exception Details:
+  Location:
+    com/mycompany/mavenproject1/NodoLaboratorio.setCapacidadSalon(Lcom/mycompany/mavenproject1/NodoSalon;)V @26: ifeq
+  Reason:
+    Expected stackmap frame at this location.
+  Bytecode:
+    0000000: 033d 11ff ff3e 1212 1100 33b8 0018 2bb6
+    0000010: 0032 1100 333d 1100 003e 9900 1212 121c
+    0000020: 1d04 b800 3611 ffff 3ea7 0025 1d9b 000f
+    0000030: 1212 1c1d 03b8 0036 11ff ff3e 1212 1100
+    0000040: 37b8 0018 bb00 3859 123a b700 3dbf 1212
+    0000050: 1100 39b8 0018 b1                      
+  Stackmap Table:
+    same_frame_extended(@68)
+    same_frame(@86)
+
+	at com.mycompany.mavenproject1.NodoLaboratorioTest.setUp(NodoLaboratorioTest.java:53)
+
+NodoSalon_testmockSetCapacidadSalon(com.mycompany.mavenproject1.NodoLaboratorioTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.VerifyError: 
+Expecting a stackmap frame at branch target 44
+Exception Details:
+  Location:
+    com/mycompany/mavenproject1/NodoLaboratorio.setCapacidadSalon(Lcom/mycompany/mavenproject1/NodoSalon;)V @26: ifeq
+  Reason:
+    Expected stackmap frame at this location.
+  Bytecode:
+    0000000: 033d 11ff ff3e 1212 1100 33b8 0018 2bb6
+    0000010: 0032 1100 333d 1100 003e 9900 1212 121c
+    0000020: 1d04 b800 3611 ffff 3ea7 0025 1d9b 000f
+    0000030: 1212 1c1d 03b8 0036 11ff ff3e 1212 1100
+    0000040: 37b8 0018 bb00 3859 123a b700 3dbf 1212
+    0000050: 1100 39b8 0018 b1                      
+  Stackmap Table:
+    same_frame_extended(@68)
+    same_frame(@86)
+
+	at com.mycompany.mavenproject1.NodoLaboratorioTest.setUp(NodoLaboratorioTest.java:53)
+
+NodoProfesor_testmockSetEdadProfesor(com.mycompany.mavenproject1.NodoLaboratorioTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.VerifyError: 
+Expecting a stackmap frame at branch target 44
+Exception Details:
+  Location:
+    com/mycompany/mavenproject1/NodoLaboratorio.setCapacidadSalon(Lcom/mycompany/mavenproject1/NodoSalon;)V @26: ifeq
+  Reason:
+    Expected stackmap frame at this location.
+  Bytecode:
+    0000000: 033d 11ff ff3e 1212 1100 33b8 0018 2bb6
+    0000010: 0032 1100 333d 1100 003e 9900 1212 121c
+    0000020: 1d04 b800 3611 ffff 3ea7 0025 1d9b 000f
+    0000030: 1212 1c1d 03b8 0036 11ff ff3e 1212 1100
+    0000040: 37b8 0018 bb00 3859 123a b700 3dbf 1212
+    0000050: 1100 39b8 0018 b1                      
+  Stackmap Table:
+    same_frame_extended(@68)
+    same_frame(@86)
+
+	at com.mycompany.mavenproject1.NodoLaboratorioTest.setUp(NodoLaboratorioTest.java:53)
+
