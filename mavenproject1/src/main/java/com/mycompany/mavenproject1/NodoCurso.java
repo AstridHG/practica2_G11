@@ -29,10 +29,15 @@ public class NodoCurso {
         String valor = String.valueOf(id) + "," + Nombre+","+String.valueOf(nota);
         return valor;
     }
-    public void  setValor(int ide,String nombre, int nota) {
+    public boolean  setValor(int ide,String nombre, int nota) {
         this.id=ide;
         this.Nombre=nombre;
         this.nota=nota;
+        if(nota>0){
+            return true;
+        }else{
+            return false;
+        }
     }
     public NodoCurso getSig() {
         return siguiente;

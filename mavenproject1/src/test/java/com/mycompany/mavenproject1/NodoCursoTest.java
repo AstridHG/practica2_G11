@@ -48,79 +48,40 @@ public class NodoCursoTest {
         String[] result = instance.getValor();
         assertArrayEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
-
-    /**
-     * Test of getVal method, of class NodoCurso.
-     */
-    @Test
-    public void testGetVal() {
-        System.out.println("getVal");
-        NodoCurso instance = new NodoCurso();
-        String expResult = "";
-        String result = instance.getVal();
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
-     * Test of setValor method, of class NodoCurso.
-     */
-    @Test
-    public void testSetValor() {
-        System.out.println("setValor");
-        int ide = 0;
-        String nombre = "";
-        int nota = 0;
-        NodoCurso instance = new NodoCurso();
-        instance.setValor(ide, nombre, nota);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
+    
 
     /**
      * Test of getSig method, of class NodoCurso.
      */
     @Test
-    public void testGetSig() {
-        System.out.println("getSig");
+    public void testNota() {
         NodoCurso instance = new NodoCurso();
-        NodoCurso expResult = null;
-        NodoCurso result = instance.getSig();
-        assertEquals(expResult, result);
+        int nota=0;
+        boolean result = instance.setValor(1, "prueba", 5);
+        assertTrue(result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
-     * Test of setSig method, of class NodoCurso.
-     */
-    @Test
-    public void testSetSig() {
-        System.out.println("setSig");
-        NodoCurso siguiente = null;
-        NodoCurso instance = new NodoCurso();
-        instance.setSig(siguiente);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     /**
      * Test of getSiguiente method, of class NodoCurso.
      */
     @Test
-    public void testGetSiguiente() {
-        System.out.println("getSiguiente");
+    public void testNotaError() {
         NodoCurso instance = new NodoCurso();
-        boolean expResult = false;
-        boolean result = instance.getSiguiente();
-        assertEquals(expResult, result);
+        int nota=0;
+        boolean result = instance.setValor(1, "prueba", 5);
+        assertNotSame(result,nota); //afirrmando que no son iguales
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
-
+  @Test
+    public void testNotaAfirma() {
+        NodoCurso instance = new NodoCurso();
+        boolean acepta=true;
+        boolean result = instance.setValor(1, "prueba", 5);
+        assertSame(result,acepta); //afirrmando que son iguales
+        // TODO review the generated test code and remove the default call to fail.
+    }
     /**
      * Test of getAnterior method, of class NodoCurso.
      */
@@ -130,9 +91,8 @@ public class NodoCursoTest {
         NodoCurso instance = new NodoCurso();
         boolean expResult = false;
         boolean result = instance.getAnterior();
-        assertEquals(expResult, result);
+        assertFalse(result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     /**
@@ -144,25 +104,9 @@ public class NodoCursoTest {
         NodoCurso instance = new NodoCurso();
         int expResult = 0;
         int result = instance.getPrimero();
-        assertEquals(expResult, result);
+        assertNotNull(result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
-
-    /**
-     * Test of getUltimo method, of class NodoCurso.
-     */
-    @Test
-    public void testGetUltimo() {
-        System.out.println("getUltimo");
-        NodoCurso instance = new NodoCurso();
-        int expResult = 0;
-        int result = instance.getUltimo();
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
     /**
      * Test of Eliminar method, of class NodoCurso.
      */
@@ -170,11 +114,10 @@ public class NodoCursoTest {
     public void testEliminar() {
         System.out.println("Eliminar");
         NodoCurso instance = new NodoCurso();
-        int expResult = 0;
+        int expResult = 10;
         int result = instance.Eliminar();
-        assertEquals(expResult, result);
+        assertNotEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
     
 }
