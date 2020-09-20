@@ -47,23 +47,6 @@ public class NodoLaboratorio {
         return 0;
     }
     
-    public void setCapacidadSalon(NodoSalon NSTemp){
-        if(NSTemp.getSiguiente()){
-            
-        }
-        else{
-            throw new IllegalArgumentException("La cantidad deve ser menor o igual a 65");
-        }
-    }
-    
-    public void setEdadAuxiliar(NodoAuxiliar NSTemp){
-        if(NSTemp.getSiguiente()){
-            
-        }
-        else{
-            throw new IllegalArgumentException("El auxiliar no puede ser mero a 18 de edad");
-        }
-    }
     
     public void setEdadEstudiante(NodoEstudiante NSTemp){
         if(NSTemp.getSiguiente()){
@@ -74,21 +57,5 @@ public class NodoLaboratorio {
         }
     }
     
-     public void setCapacidadCurso(NodoCurso NSTemp){
-        if(NSTemp.getSiguiente()){
-            
-        }
-        else{
-            throw new IllegalArgumentException("La cantidad deve ser menor o igual a 65");
-        }
-    }
      
-    public void setEdadProfesor(NodoProfesor NSTemp){
-        if(NSTemp.getSiguiente()){
-            
-        }
-        else{
-            throw new IllegalArgumentException("El auxiliar no puede ser mero a 18 de edad");
-        }
-    }
 }
