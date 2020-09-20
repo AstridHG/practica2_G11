@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="7" failures="0" name="com.mycompany.mavenproject1.NodoSalonTest" time="0.417" errors="0" skipped="0">
+<testsuite tests="11" failures="0" name="com.mycompany.mavenproject1.NodoSalonTest" time="0.316" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\bin"/>
@@ -68,11 +68,15 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.mycompany.mavenproject1.NodoSalonTest" name="validarvalores" time="0.41"/>
+  <testcase classname="com.mycompany.mavenproject1.NodoSalonTest" name="tamanio" time="0.286"/>
+  <testcase classname="com.mycompany.mavenproject1.NodoSalonTest" name="validarvalores" time="0"/>
   <testcase classname="com.mycompany.mavenproject1.NodoSalonTest" name="testnivel" time="0"/>
-  <testcase classname="com.mycompany.mavenproject1.NodoSalonTest" name="testNull" time="0"/>
-  <testcase classname="com.mycompany.mavenproject1.NodoSalonTest" name="array" time="0.002"/>
-  <testcase classname="com.mycompany.mavenproject1.NodoSalonTest" name="testcapacidad" time="0.001"/>
-  <testcase classname="com.mycompany.mavenproject1.NodoSalonTest" name="testNotNull" time="0.003"/>
+  <testcase classname="com.mycompany.mavenproject1.NodoSalonTest" name="testNull" time="0.001"/>
+  <testcase classname="com.mycompany.mavenproject1.NodoSalonTest" name="array" time="0.003"/>
+  <testcase classname="com.mycompany.mavenproject1.NodoSalonTest" name="eliminar" time="0.008"/>
+  <testcase classname="com.mycompany.mavenproject1.NodoSalonTest" name="Noeliminado" time="0.008"/>
+  <testcase classname="com.mycompany.mavenproject1.NodoSalonTest" name="testcapacidad" time="0.002"/>
+  <testcase classname="com.mycompany.mavenproject1.NodoSalonTest" name="verificarsilistavacia" time="0.006"/>
+  <testcase classname="com.mycompany.mavenproject1.NodoSalonTest" name="testNotNull" time="0.001"/>
   <testcase classname="com.mycompany.mavenproject1.NodoSalonTest" name="notsame" time="0.001"/>
 </testsuite>

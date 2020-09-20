@@ -24,9 +24,10 @@ public class NodoSalonTest {
     }
     
     NodoSalon NS;
-    NodoSalon NSValido;
-    NodoSalon NSInvalido;
-    
+    ListaSalon NSValido;
+    ListaSalon NSInvalido;
+       ListaSalon salones = new   ListaSalon();
+       
     @BeforeClass
     public static void setUpClass() {
     }
@@ -37,21 +38,10 @@ public class NodoSalonTest {
     
     @Before
     public void setUp() {
-        NSValido = mock(NodoSalon.class);
-        NSInvalido = mock(NodoSalon.class);
+        NSValido = mock(ListaSalon.class);
+        NSInvalido = mock(ListaSalon.class);
         when(NSValido.setValue(201, "T3",-9,1, 10)).thenReturn(false);
         when(NSInvalido.setValue(201, "T3",100, 2, 9)).thenReturn(true);
-        
-    /*    NS = new NodoSalon();
-        NS.getValor();
-        NS.setValor(int numero, String edificio,int capacidad,int nivel,int id);
-        NS.getSiguiente();
-        NS.getAnterior();
-        NS.getPrimero();
-        NS.getUltimo();
-        NS.Eliminar();
-        
-*/
     }
     
     @After
@@ -65,19 +55,18 @@ public class NodoSalonTest {
       @Test
        public void testcapacidad() {
         System.out.println("capacidad");
-        NodoSalon instance = new NodoSalon();
+        ListaSalon instance = new ListaSalon();
         int valor=165;
         String expResult ="Grande";
         String result = instance.capacidad(valor);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-       
+        // TODO review the generated test code and remove the default call to fail.       
     }
        
           @Test
        public void testnivel() {
         System.out.println("nivel");
-        NodoSalon instance = new NodoSalon();
+        ListaSalon instance = new   ListaSalon();
         int valor=208;
         boolean result = instance.nivel(valor);
        assertTrue("Nivel Valido ", result);
@@ -87,7 +76,7 @@ public class NodoSalonTest {
       @Test
  public void testNotNull() {
       System.out.println("capacidad");
-        ListaSalon salon = new ListaSalon();
+          ListaSalon salon = new   ListaSalon();
         assertNotNull("La lista 'salon'  no es null:", salon);
  }
  @Test
@@ -102,7 +91,7 @@ public class NodoSalonTest {
     @Test
     public void notsame() { 
         System.out.println("numero nivel");
-        NodoSalon instance = new NodoSalon();
+          ListaSalon instance = new   ListaSalon();
         int nivel = instance.numeronivel(404);// El retorno es true
         int nivel1 = instance.numeronivel(203);// EL retorno es falso
           assertNotSame("No son iguales los dos niveles indicados para cada salon ingresado: ", nivel, nivel1);   
@@ -111,18 +100,48 @@ public class NodoSalonTest {
     
     @Test
     public void array() { 
-        System.out.println("array");
-        NodoSalon instance = new NodoSalon();
+       System.out.println("array");
+       ListaSalon instance = new   ListaSalon();
        String[] edificios_actuales = { "T1", "T2","T3", "M1" };
- assertArrayEquals("Fallo - No son los mismos arreglos",instance.getedificios(), edificios_actuales);
+       assertArrayEquals("Fallo - No son los mismos arreglos",instance.getedificios(), edificios_actuales);
     }
     
         @Test
     public void validarvalores() { 
         System.out.println("validar");
-        NodoSalon instance = new NodoSalon();
+          ListaSalon instance = new   ListaSalon();
      boolean result = instance.setValue(205,"M1",-50,2,10);
        assertFalse("Datos incorrectos ", result);
     }
     
+    
+     @Test
+    public void verificarsilistavacia() {
+        boolean inicial = salones.isempty();
+        salones.Leer();
+        boolean inicial1 = salones.isempty();
+        assertNotSame("La Lista es vacia: ",inicial,inicial1);
+    }
+    
+    
+     @Test
+    public void eliminar() {
+        salones.Leer();
+        assertEquals("correcto",salones.removerPorPosicion(1));
+    }
+    
+       @Test
+    public void Noeliminado() {
+        salones.Leer();
+        assertEquals("incorrecto",salones.removerPorPosicion(10));
+    }
+    
+     @Test
+    public void tamanio() {
+        int inicial = salones.getTamanio();
+        salones.Leer();
+        int inicial1 = salones.getTamanio();
+        assertNotSame("tamanio 0 : ",inicial,inicial1);
+    }
+     
 }

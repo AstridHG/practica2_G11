@@ -137,41 +137,73 @@ public class ListaSalon {
     }
     
        public String removerPorPosicion(int posicion){
-        // Verifica si la posición ingresada se encuentre en el rango
-        // >= 0 y < que el numero de elementos del la lista.
-        if(posicion>=0 && posicion<tamanio){
-            // Consulta si el nodo a eliminar es el primero
+       if(posicion>=0 && posicion<tamanio){
             if(posicion == 0){
-                // Elimina el primer nodo apuntando al siguinte.
                 inicio = inicio.getSig();
             }
-            // En caso que el nodo a eliminar este por el medio 
-            // o sea el ultimo
             else{
-                // Crea una copia de la lista.
                 NodoSalon aux = inicio;
-                // Recorre la lista hasta lleger al nodo anterior al eliminar.
                 for (int i = 0; i < posicion-1; i++) {
                     aux = aux.getSig();
                 }
-                // Guarda el nodo siguiente al nodo a eliminar.
-                NodoSalon siguiente = aux.getSig();
-                // Elimina la referencia del nodo apuntando al nodo siguiente.
-                aux.setSig(siguiente.getSig());
+                 NodoSalon siguiente = aux.getSig();
+               aux.setSig(siguiente.getSig());
             }
-            // Disminuye el contador de tamaño de la lista.
-            tamanio--;
+             tamanio--;
+              String a = listar();
+             return "correcto";
         }
         String a = listar();
-        return a;
+        return "incorrecto";
     }
     /**
      * Elimina la lista
      */
-    public void eliminar(){
-        // Elimina el id y la referencia a los demas nodos.
-        inicio = null;
-        // Reinicia el contador de tamaño de la lista a 0.
-        tamanio = 0;
+   
+    
+    
+    //verificar capacidad
+      public String capacidad(int capacidad) {
+      if (capacidad>=50 &&capacidad<100){
+          return "Pequeño";
+      }else if (capacidad>=100 &&capacidad<150){
+          return "Mediano";
+      }else if (capacidad>=150  &&capacidad<200){
+          return "Grande";
+      }
+      return "error";
     }
+      
+      //verificar nivel
+         public boolean nivel(int nivel) {
+       String niv= nivel+"";
+        if (Integer.parseInt(niv.substring(0,1))<=4){
+          return true;
+      }
+      return false;
+    }
+         
+         //validar parametros
+         public boolean setValue(int numero, String edificio,int capacidad,int nivel,int id) {
+
+        if(id<=0 || numero<=0 || edificio=="" ||capacidad<=0 || nivel<=0 || nivel>4){
+        return false;
+        }
+        return true;
+    }
+         
+         public int numeronivel(int nivel) {
+       String niv= nivel+"";
+        if (Integer.parseInt(niv.substring(0,1))<=4){
+          return Integer.parseInt(niv.substring(0,1));
+      }
+      return 0;
+    }
+   
+     
+     public String[] getedificios(){
+         String[] edificios={"T1","T2","T3","M1"};
+         return edificios;
+     }
+         
 }
