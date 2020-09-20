@@ -140,7 +140,7 @@
     </Component>
     <Component class="javax.swing.JTextField" name="pos">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Posicion"/>
+        <Property name="text" type="java.lang.String" value="Id"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="capacidad">

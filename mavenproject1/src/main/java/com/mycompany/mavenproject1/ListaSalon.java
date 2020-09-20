@@ -127,11 +127,50 @@ public class ListaSalon {
     for(int i=0;i<parts.length;i++){
         String subparte = parts[i];    
         String[] parts2 = subparte.split(","); 
-       agregarAlFinal(Integer.parseInt(parts2[0]), parts2[1],Integer.parseInt(parts2[2]), Integer.parseInt(parts2[3]),Integer.parseInt(parts2[4]));
+         
+      agregarAlFinal(Integer.parseInt(parts2[1]),parts2[3],Integer.parseInt(parts2[4]), Integer.parseInt(parts2[2]),Integer.parseInt(parts2[0]));
       }
    
     } 
     
     }
     
+       public String removerPorPosicion(int posicion){
+        // Verifica si la posición ingresada se encuentre en el rango
+        // >= 0 y < que el numero de elementos del la lista.
+        if(posicion>=0 && posicion<tamanio){
+            // Consulta si el nodo a eliminar es el primero
+            if(posicion == 0){
+                // Elimina el primer nodo apuntando al siguinte.
+                inicio = inicio.getSig();
+            }
+            // En caso que el nodo a eliminar este por el medio 
+            // o sea el ultimo
+            else{
+                // Crea una copia de la lista.
+                NodoSalon aux = inicio;
+                // Recorre la lista hasta lleger al nodo anterior al eliminar.
+                for (int i = 0; i < posicion-1; i++) {
+                    aux = aux.getSig();
+                }
+                // Guarda el nodo siguiente al nodo a eliminar.
+                NodoSalon siguiente = aux.getSig();
+                // Elimina la referencia del nodo apuntando al nodo siguiente.
+                aux.setSig(siguiente.getSig());
+            }
+            // Disminuye el contador de tamaño de la lista.
+            tamanio--;
+        }
+        String a = listar();
+        return a;
+    }
+    /**
+     * Elimina la lista
+     */
+    public void eliminar(){
+        // Elimina el id y la referencia a los demas nodos.
+        inicio = null;
+        // Reinicia el contador de tamaño de la lista a 0.
+        tamanio = 0;
+    }
 }

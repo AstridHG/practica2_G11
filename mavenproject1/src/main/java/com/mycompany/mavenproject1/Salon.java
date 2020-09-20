@@ -20,7 +20,7 @@ public class Salon extends javax.swing.JFrame {
      
     public Salon() {
         initComponents();
-       lista.Leer();
+      lista.Leer();
         
         Scanner sn = new Scanner(System.in);
         boolean salir = false;
@@ -74,7 +74,7 @@ public class Salon extends javax.swing.JFrame {
 
         edificio.setText("Edificio");
 
-        pos.setText("Posicion");
+        pos.setText("Id");
 
         capacidad.setText("capacidad");
 
@@ -156,6 +156,8 @@ public class Salon extends javax.swing.JFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
+       String a = lista.removerPorPosicion(Integer.parseInt(pos.getText()));
+        jTextArea1.setText(a);
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
