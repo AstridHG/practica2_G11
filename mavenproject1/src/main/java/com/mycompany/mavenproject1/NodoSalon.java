@@ -19,12 +19,7 @@ public class NodoSalon {
 
     
     // Métodos get y set para los atributos.
-    
-    public String[] getValor() {        
-        String[] parts2 = null; 
-        return parts2;
-    }
-
+   
       public void setValor(int numero, String edificio,int capacidad,int nivel,int id) {
         this.id = id;
         this.numero=  numero;
@@ -38,22 +33,35 @@ public class NodoSalon {
           return "Pequeño";
       }else if (capacidad>=100 &&capacidad<150){
           return "Mediano";
-      }else if (capacidad>=150 ){
+      }else if (capacidad>=150  &&capacidad<200){
           return "Grande";
       }
       return "error";
     }
          
          
-   public int nivel(int nivel) {
+   public boolean nivel(int nivel) {
        String niv= nivel+"";
-        if (niv.charAt(1)<=4){
-          return niv.charAt(1);
+        if (Integer.parseInt(niv.substring(0,1))<=4){
+          return true;
+      }
+      return false;
+    }
+
+   public int numeronivel(int nivel) {
+       String niv= nivel+"";
+        if (Integer.parseInt(niv.substring(0,1))<=4){
+          return Integer.parseInt(niv.substring(0,1));
       }
       return 0;
     }
-
-
+   
+     
+     public String[] getedificios(){
+         String[] edificios={"T1","T2","T3","M1"};
+         return edificios;
+     }
+   
  public NodoSalon getSig() {
         return siguiente;
     }
@@ -67,26 +75,16 @@ public class NodoSalon {
         return valor;
     }
       
-    public boolean getSiguiente() {
-        return true;
-    }
-
-    public boolean getAnterior() {
+    public boolean setValue(int numero, String edificio,int capacidad,int nivel,int id) {
+        this.id = id;
+        this.numero=  numero;
+        this.edificio=edificio;
+        this.capacidad = capacidad;
+        this.nivel=nivel;
+        
+        if(this.id<=0 || this.numero<=0 || this.edificio==""||   this.capacidad<=0 || this.nivel<=0 || this.nivel>4){
         return false;
+        }
+        return true;
     }   
-    
-    public int getPrimero() {
-        return 10;
-    }
-
-    public int getUltimo() {
-        return 100;
-    } 
-    
-    public int Eliminar(){
-        return 0;
-    }
-    
-    
-    
 }

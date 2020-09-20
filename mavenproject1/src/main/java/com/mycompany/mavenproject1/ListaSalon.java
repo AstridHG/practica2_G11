@@ -29,6 +29,7 @@ public class ListaSalon {
         return inicio == null;
     }
 
+     
     public int getTamanio(){
         return tamanio;
     }

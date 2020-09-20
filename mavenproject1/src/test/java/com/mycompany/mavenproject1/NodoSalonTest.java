@@ -53,101 +53,68 @@ public class NodoSalonTest {
     /**
      * Test of getValor method, of class NodoSalon.
      */
-    @Test
-    public void testGetValor() {
-        System.out.println("getValor");
+    
+      @Test
+       public void testcapacidad() {
+        System.out.println("capacidad");
         NodoSalon instance = new NodoSalon();
-        String[] expResult = null;
-        String[] result = instance.getValor();
-                   
-        assertArrayEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        
-    }
-
-    /**
-     * Test of setValor method, of class NodoSalon.
-     */
-    @Test
-    public void testSetValor() {
-     /*   System.out.println("setValor");
-        NodoSalon instance = new NodoSalon();
-        String expResult = "valor";
-        String result = instance.setValor();
+        int valor=165;
+        String expResult ="Grande";
+        String result = instance.capacidad(valor);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-       */ 
+       
     }
-
- 
-    /**
-     * Test of getSiguiente method, of class NodoSalon.
-     */
-    @Test
-    public void testGetSiguiente() {
-        System.out.println("getSiguiente");
+       
+          @Test
+       public void testnivel() {
+        System.out.println("nivel");
         NodoSalon instance = new NodoSalon();
-        boolean expResult = false;
-        boolean result = instance.getSiguiente();
-        assertTrue(result);
+        int valor=208;
+        boolean result = instance.nivel(valor);
+       assertTrue("Nivel Valido ", result);
         // TODO review the generated test code and remove the default call to fail.
-        
     }
-
-    /**
-     * Test of getAnterior method, of class NodoSalon.
-     */
+    
+      @Test
+ public void testNotNull() {
+      System.out.println("capacidad");
+        ListaSalon salon = new ListaSalon();
+        assertNotNull("La lista 'salon'  no es null:", salon);
+ }
+ @Test
+  public void testNull() {
+      System.out.println("capacidad");
+        ListaSalon salon=null;
+        assertNull("La lista 'salon' esta null:", salon);
+    //    salon.agregarAlFinal(101,"T4",100,1,10);
+     //   assertNull("La lista 'salon' esta null:", salon);
+ }
+       
     @Test
-    public void testGetAnterior() {
-        System.out.println("getAnterior");
+    public void notsame() { 
+        System.out.println("numero nivel");
         NodoSalon instance = new NodoSalon();
-        boolean expResult = false;
-        boolean result = instance.getAnterior();
-        assertFalse(result);
-        // TODO review the generated test code and remove the default call to fail.
-        
+        int nivel = instance.numeronivel(404);// El retorno es true
+        int nivel1 = instance.numeronivel(203);// EL retorno es falso
+          assertNotSame("No son iguales los dos niveles indicados para cada salon ingresado: ", nivel, nivel1);   
     }
-
-    /**
-     * Test of getPrimero method, of class NodoSalon.
-     */
+   
+    
     @Test
-    public void testGetPrimero() {
-        System.out.println("getPrimero");
+    public void array() { 
+        System.out.println("array");
         NodoSalon instance = new NodoSalon();
-        int expResult = 0;
-        int result = instance.getPrimero();
-        assertNotNull(result);
-        // TODO review the generated test code and remove the default call to fail.
-        
+       String[] edificios_actuales = { "T1", "T2","T3", "M1" };
+ assertArrayEquals("Fallo - No son los mismos arreglos",instance.getedificios(), edificios_actuales);
     }
-
-    /**
-     * Test of getUltimo method, of class NodoSalon.
-     */
-    @Test
-    public void testGetUltimo() {
-        System.out.println("getUltimo");
+    
+        @Test
+    public void validarvalores() { 
+        System.out.println("validar");
         NodoSalon instance = new NodoSalon();
-        String expResult = "10";
-        int result = instance.getUltimo();
-        assertNotSame(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        
-    }
-
-    /**
-     * Test of Eliminar method, of class NodoSalon.
-     */
-    @Test
-    public void testEliminar() {
-        System.out.println("Eliminar");
-        NodoSalon instance = new NodoSalon();
-        int expResult = 10;
-        int result = instance.Eliminar();
-        assertNotEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        
+     boolean result = instance.setValue(205,"M1",-50,2,10);
+       assertFalse("Datos incorrectos ", result);
     }
     
 }
