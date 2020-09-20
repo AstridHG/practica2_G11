@@ -2,7 +2,11 @@
 Test set: com.mycompany.mavenproject1.NodoCursoTest
 -------------------------------------------------------------------------------
 <<<<<<< HEAD
+<<<<<<< HEAD
 Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.296 sec
 =======
 Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.118 sec
 >>>>>>> req_Auxiliar
+=======
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.mycompany.mavenproject1.NodoCursoTest
+>>>>>>> req_Salon

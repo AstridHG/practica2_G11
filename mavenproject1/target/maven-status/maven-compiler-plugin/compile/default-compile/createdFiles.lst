@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 com/mycompany/mavenproject1/InterfazCurso.class
 com/mycompany/mavenproject1/NodoCurso.class
 com/mycompany/mavenproject1/InterfazCurso$5.class
@@ -10,3 +11,6 @@ com/mycompany/mavenproject1/InterfazCurso$2.class
 =======
 com/mycompany/mavenproject1/NodoAuxiliar.class
 >>>>>>> req_Auxiliar
+=======
+com\mycompany\mavenproject1\NodoSalon.class
+>>>>>>> req_Salon
