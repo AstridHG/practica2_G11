@@ -103,7 +103,7 @@ public class NodoAuxiliarTest {
     
     @Test
     public void testContrasenaInCorrecto() {
-        assertNotSame("La contraseña es incorrecta: ", auxiliar.validarContrasena("astrid"),"astrid");
+        assertNotSame("La contraseña es incorrecta:", auxiliar.validarContrasena("astrid"),"astrid");
     }
     
     @Test
@@ -117,7 +117,7 @@ public class NodoAuxiliarTest {
         auxiliar.Leer();
         boolean valor2 = auxiliar.listaVacia();
         
-        assertNotSame("La Lista es vacia: ",valor1,valor2);
+        assertNotSame("La valores no son iguales: ",valor1,valor2);
     }
     
     @Test
