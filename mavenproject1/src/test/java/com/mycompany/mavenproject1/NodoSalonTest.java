@@ -11,6 +11,8 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.when;
 
 /**
  *
@@ -35,6 +37,11 @@ public class NodoSalonTest {
     
     @Before
     public void setUp() {
+        NSValido = mock(NodoSalon.class);
+        NSInvalido = mock(NodoSalon.class);
+        when(NSValido.getSiguiente()).thenReturn(false);
+        when(NSInvalido.getSiguiente()).thenReturn(true);
+        
     /*    NS = new NodoSalon();
         NS.getValor();
         NS.setValor(int numero, String edificio,int capacidad,int nivel,int id);
@@ -43,6 +50,7 @@ public class NodoSalonTest {
         NS.getPrimero();
         NS.getUltimo();
         NS.Eliminar();
+        
 */
     }
     
