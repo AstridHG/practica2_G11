@@ -12,6 +12,11 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
+
+import static org.junit.Assert.*;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.when;
+
 /**
  *
  * @author tu3
@@ -19,6 +24,7 @@ import static org.junit.Assert.*;
 public class NodoAuxiliarTest {
     
     ListaAuxiliar auxiliar = new ListaAuxiliar();
+    InterfazAuxiliar i = new InterfazAuxiliar();
     
     public NodoAuxiliarTest() {
     }
@@ -33,6 +39,7 @@ public class NodoAuxiliarTest {
     
     @Before
     public void setUp() {
+        
     }
     
     @After
@@ -103,7 +110,7 @@ public class NodoAuxiliarTest {
     @Test
     public void testListaVacia() {
         boolean valor1 = auxiliar.listaVacia();
-        auxiliar.insertarAuxiliar(1234, "Astrid", "analisis",'a', "astrid14");
+        auxiliar.Leer();
         boolean valor2 = auxiliar.listaVacia();
         
         assertNotSame("La Lista es vacia: ",valor1,valor2);
@@ -118,4 +125,48 @@ public class NodoAuxiliarTest {
     public void testInsertarAuxiliarInCorrecto() {
         assertFalse("El usuario es incorrecto: ", auxiliar.insertarAuxiliar(123, "Ast5rid", "anal6isis",'1', "a1s"));
     }
+    
+    @Test
+   public void testEliminarAuxiliarIncorrecto()
+   {
+       assertFalse("El auxiliar no se elimino :",auxiliar.eliminarAuxiliar(1235));
+   }
+   
+   @Test
+   public void testEliminarAuxiliarCorrecto()
+   {
+       auxiliar.Leer();
+       assertTrue("El auxiliar fue eliminado:",auxiliar.eliminarAuxiliar(1234));
+   }
+   
+   @Test
+   public void testEliminarAuxiliarCorrecto1()
+   {
+       auxiliar.Leer();
+       assertTrue("El auxiliar fue eliminado:",auxiliar.eliminarAuxiliar(2012));
+   }
+   
+   @Test
+   public void testEliminarAuxiliarCorrecto2()
+   {
+       auxiliar.Leer();
+       assertNotSame("El auxiliar fue eliminado:",auxiliar.eliminarAuxiliar(2014),false);
+   }
+    
+   @Test
+    public void testEliminarAuxiliar3() {
+        boolean valor1 = auxiliar.listaVacia();
+        auxiliar.insertarAuxiliar(1234, "Astrid", "analisis",'a', "astrid14");
+        
+        assertSame("El auxiliar se elimina: ",auxiliar.eliminarAuxiliar(1234),true);
+    }
+    
+    @Test
+    public void testListarAuxInCorrecto()
+    {
+        auxiliar.Leer();
+        String listar = auxiliar.listarAuxiliar();
+        assertNotSame("Los valorer no iguales:",listar,auxiliar.listarAuxiliar());
+    }
+    
 }
