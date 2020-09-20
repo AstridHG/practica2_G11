@@ -16,6 +16,7 @@ import java.io.FileWriter;
  * @author yovany
  */
 public class ListaCurso {
+    
     private NodoCurso inicio;
     private int tamanio;
 
@@ -25,16 +26,21 @@ public class ListaCurso {
     }
 
     public boolean esVacia(){
-        return inicio == null;
+        if(inicio==null){
+            return true;
+        }else{
+            return false;
+        }
     }
 
     public int getTamanio(){
-        return tamanio;
+     return tamanio;
     }
 
     public String agregarAlFinal(int id, String nombre,int nota){
         NodoCurso nuevo = new NodoCurso();
         nuevo.setValor(id, nombre,nota);
+        if(nota!=0){
         if (esVacia()) {
 
             inicio = nuevo;
@@ -53,6 +59,9 @@ public class ListaCurso {
         tamanio++;
         String a = listar();
         return a;
+        }else{
+            return "notValid";
+        }
     }
    
     /**
@@ -64,6 +73,7 @@ public class ListaCurso {
     public String editarPorPosicion(int posicion , int id, String nombre,int nota){
         // Verifica si la posición ingresada se encuentre en el rango
         // >= 0 y < que el numero de elementos del la lista.
+        if(nota !=0){
         if(posicion>=0 && posicion<tamanio){
             // Consulta si el nodo a eliminar es el primero.
             if(posicion == 0){
@@ -84,6 +94,9 @@ public class ListaCurso {
         }
         String a = listar();
         return a;
+        }else{
+            return "no";
+        }
     }
     
     /**
@@ -99,6 +112,7 @@ public class ListaCurso {
             if(posicion == 0){
                 // Elimina el primer nodo apuntando al siguinte.
                 inicio = inicio.getSig();
+                return "eliminado";
             }
             // En caso que el nodo a eliminar este por el medio 
             // o sea el ultimo

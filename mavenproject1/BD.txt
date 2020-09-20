@@ -1,1 +1,1 @@
-0,Curso0,45;2,Curso2,89;2,cursoPa,99;1,curso2,34;3,fg,34;3,fg,-1;
+0,Curso0,45;2,Curso2,89;2,cursoPa,99;1,curso2,34;

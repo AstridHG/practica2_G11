@@ -17,8 +17,6 @@ public class NodoCurso {
     private String Nombre;
     private int nota;
     private NodoCurso siguiente;
-    
-    
     // Métodos get y set para los atributos.
     
     public String[] getValor() {        
